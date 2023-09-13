@@ -5,6 +5,8 @@ export default function handler(req, res) {
   // console.log(req);
   const { abc } = req.query;
 
+  console.log(req.method);
+  console.log(req.body);
   console.log("api has been hit");
 
   res.status(200).json({ city: 'Delhi' })
