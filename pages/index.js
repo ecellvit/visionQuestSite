@@ -1,9 +1,12 @@
 import Abc from '@/components/abc'
-import Sectorentry from '@/components/Sectorentry'
+import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
-import TeamForm from '@/components/teamform'
+import TeamDetails from '@/components/TeamDetails'
 import Cities from '@/components/Cities'
+import Waiting from '@/components/waiting'
+import End from '@/components/End'
+import Investors from '@/components/Investors'
 
 export default function Home() {
 
@@ -39,15 +42,18 @@ export default function Home() {
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <Sectorentry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("abc")}} />}
-                {stage == "abc" && <Abc />}
-                
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
+                {stage == "wait" && <Waiting onProceed={()=>{setStage("investors")}} />}
+                {/* display round 2 details */}
+                {stage == "investors" && <Investors onProceed={() => { setStage("abc") }} />}
+                {stage == "end" && <End />}
+
                 <button onClick={() => signOut()}>Log Out</button>
               </div>
             </div>
             :
             <div>
-              <TeamForm onNext={() => setHasTeamDetails(true)} />
+              <TeamDetails onNext={() => setHasTeamDetails(true)} />
             </div>
         }
       </div>

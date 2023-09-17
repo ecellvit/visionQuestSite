@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '@/styles/basic.css';
 
-function TeamForm(props) {
+function TeamDetails(props) {
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
   const [leaderEmail, setLeaderEmail] = useState('');
@@ -12,7 +12,7 @@ function TeamForm(props) {
       alert("Fill all values");
     }
     else{
-      
+
         const backendUrl = "http://localhost:3000/api/"
         let id = 1
     
@@ -74,4 +74,4 @@ function TeamForm(props) {
   );
 }
 
-export default TeamForm;
+export default TeamDetails;

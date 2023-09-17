@@ -1,9 +1,8 @@
 {
-    "I.T":
+    "I.T" :
     {
         "BANGALORE" :
         [
-            
             {
                 "id" : "1",
                 "sectorname": "Research and Development(R&D)", 
@@ -776,7 +775,7 @@
             }
         ]
     },
-    
+
     "PETROCHEMICAL":
     {
         "MUMBAI" : 
