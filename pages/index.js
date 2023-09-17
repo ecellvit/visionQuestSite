@@ -1,6 +1,5 @@
 import Abc from '@/components/abc'
-import Def from '@/components/def'
-import SectorEntry from '@/components/SectorEntry'
+import Sectorentry from '@/components/Sectorentry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
