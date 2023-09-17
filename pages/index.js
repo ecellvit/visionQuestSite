@@ -1,12 +1,9 @@
-import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
 import Def from '@/components/def'
 import Sectorentry from '@/components/Sectorentry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
-import NextPage from '@/components/nextpage'
-
 
 export default function Home() {
 
@@ -46,6 +43,8 @@ export default function Home() {
         {
           hasTeamDetails ?
             <div>
+              <div id="Header">
+
               {/* <p>Logged in, {session.user.name}</p> */}
               Vision Quest
               {/* {currentPage} */}
@@ -53,7 +52,12 @@ export default function Home() {
               <span>TeamNumber: {teamNumber}</span>
               <span>LeaderEmail: {leaderEmail}</span>
               <span>{currentRound}</span>
+              </div>
+              
+              <div id="Content">
+              {currentPage}
               <button onClick={() => signOut()}>Log Out</button>
+              </div>
               {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
