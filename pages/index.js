@@ -3,6 +3,8 @@ import Abc from '@/components/abc'
 import Def from '@/components/def'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
+import TeamForm from '@/components/teamform'
+import NextPage from '@/components/nextpage'
 
 
 export default function Home() {
@@ -12,8 +14,11 @@ export default function Home() {
   console.log(session, status)
 
   const pages = [
+    <TeamForm />,
     <Abc />,
-    <Def />
+    <Def />,
+    <NextPage />,
+    
   ]
 
   const [currentPage, setCurrentPage] = useState(pages[0])

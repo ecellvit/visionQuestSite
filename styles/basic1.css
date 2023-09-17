@@ -1,0 +1,90 @@
+
+/*.next-page {
+  background-color: #ffffff; 
+  color: #007acc; 
+  padding: 20px;
+}*/
+
+.industry h2,
+.team-info h2,
+.base-price h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.industry h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.team-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team-details p {
+  flex-basis: calc(33.33% - 10px); 
+}
+
+.base-price h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vision-points {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.city-card-container {
+  margin-bottom: 30px;
+}
+
+.city-card-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.city-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.city-card {
+  flex-basis: calc(33.33% - 20px); 
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.city-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.city-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.next-page {
+  background-color: #ffffff; 
+  color: #007acc; 
+  padding: 20px;
+  text-align: center; 
+}
+
+
