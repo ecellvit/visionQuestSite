@@ -1,0 +1,74 @@
+{
+    "I.T": [
+      "Bangalore, Karnataka",
+      "Hyderabad, Telangana",
+      "Pune, Maharashtra",
+      "Chennai, Tamil Nadu",
+      "Mumbai, Maharashtra",
+      "Delhi",
+      "Kolkata, West Bengal",
+      "Ahmedabad, Gujarat",
+      "Indore, Madhya Pradesh",
+      "Jaipur, Rajasthan"
+    ],
+    "Fashion": [
+      "Mumbai, Maharashtra",
+      "Delhi",
+      "Bangalore, Karnataka",
+      "Chennai, Tamil Nadu",
+      "Hyderabad, Telangana",
+      "Kolkata, West Bengal",
+      "Ahmedabad, Gujarat",
+      "Jaipur, Rajasthan",
+      "Surat, Gujarat",
+      "Kochi, Kerala"
+    ],
+    "Petrochemical": [
+      "Mumbai, Maharashtra",
+      "Jamnagar, Gujarat",
+      "Gandhinagar, Gujarat",
+      "Haldia, West Bengal",
+      "Vishakhapatnam, Andhra Pradesh",
+      "Nagothane, Maharashtra",
+      "Kochi, Kerala",
+      "Panipat, Haryana",
+      "Dahej, Gujarat",
+      "Barauni, Bihar"
+    ],
+    "Healthcare": [
+      "Pune, Maharashtra",
+      "Ahmedabad, Gujarat",
+      "Bangalore, Karnataka",
+      "Mumbai, Maharashtra",
+      "Chennai, Tamil Nadu",
+      "Hyderabad, Telangana",
+      "Kolkata, West Bengal",
+      "Delhi-NCR",
+      "Lucknow, Uttar Pradesh",
+      "Patna, Bihar"
+    ],
+    "Finance": [
+      "Mumbai, Maharashtra",
+      "Delhi",
+      "Bangalore, Karnataka",
+      "Chennai, Tamil Nadu",
+      "Hyderabad",
+      "Kolkata",
+      "Ahmedabad",
+      "Pune",
+      "Surat",
+      "Indore"
+    ],
+    "Automobile": [
+      "Chennai",
+      "Pune",
+      "Gurugram",
+      "Ahmedabad",
+      "Bangalore",
+      "Jamshedpur",
+      "Indore",
+      "Kochi, Kerala",
+      "Lucknow",
+      "Coimbatore"
+    ]
+  }
