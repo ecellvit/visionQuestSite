@@ -7,6 +7,7 @@ import Waiting from '@/components/waiting'
 import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/inverstmentInfo'
+import '@/styles/index.css'
 
 export default function Home() {
 
