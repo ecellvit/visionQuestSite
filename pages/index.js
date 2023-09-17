@@ -1,4 +1,3 @@
-import Abc from '@/components/abc'
 import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
@@ -6,7 +5,6 @@ import TeamDetails from '@/components/TeamDetails'
 import Cities from '@/components/Cities'
 import Waiting from '@/components/waiting'
 import End from '@/components/End'
-import Investors from '@/components/InvestorInfo'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/inverstmentInfo'
 
