@@ -1,13 +1,38 @@
 import React, { useState } from 'react';
+import '@/styles/basic.css';
 
 function TeamForm() {
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
   const [leaderEmail, setLeaderEmail] = useState('');
 
-  const handleNextClick = () => {
-    // Send data to the backend (not implemented)
-    console.log('Data sent to backend:', { teamName, teamNumber, leaderEmail });
+  const handleNextClick = (event) => {
+    event.preventDefault()
+    if(teamName==""||teamNumber==""||leaderEmail==""){
+      alert("Fill all values");
+    }
+    else{
+      
+        const backendUrl = "http://localhost:3000/api/"
+        let id = 1
+    
+        fetch(backendUrl+"/register", {
+          content: "application/json",
+          method: "POST",
+          body: JSON.stringify(
+            {
+              "teamName":teamName, 
+              "teamNumber":teamNumber,
+              "teamLeaderMail":leaderEmail,
+            }
+           )
+        })
+        .then(res=>res.json())
+        .then(data=>{
+          console.log(data);
+        });
+      }
+    
   };
 
   return (
@@ -41,9 +66,8 @@ function TeamForm() {
             onChange={(e) => setLeaderEmail(e.target.value)}
           />
         </div>
-        <button className="next-button" onClick={handleNextClick}>
-          Next
-        </button>
+        <input  type="submit" value="submit" className="next-button" onClick={(event)=>{handleNextClick(event)}}>
+        </input>
       </form>
     </div>
   );
