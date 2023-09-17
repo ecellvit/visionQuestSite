@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
-import "../styles/Sectorentry.css";
+import "../styles/SectorEntry.css";
 
-function Sectorentry({ cityName, industryName, onProceed }) {
+function SectorEntry({ cityName, industryName, onProceed }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
@@ -132,4 +132,4 @@ function Sectorentry({ cityName, industryName, onProceed }) {
   );
 }
 
-export default Sectorentry;
+export default SectorEntry;

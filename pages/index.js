@@ -1,9 +1,12 @@
 import Abc from '@/components/abc'
-import Sectorentry from '@/components/Sectorentry'
+import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
-import TeamForm from '@/components/teamform'
+import TeamDetails from '@/components/TeamDetails'
 import Cities from '@/components/Cities'
+import Waiting from '@/components/waiting'
+import End from '@/components/End'
+import Investors from '@/components/Investors'
 
 export default function Home() {
 
@@ -33,6 +36,27 @@ export default function Home() {
               <span class="first">TeamName: {teamName}</span>
               <span class="second">TeamNumber: {teamNumber}</span>
               <span class="third">LeaderEmail: {leaderEmail}</span>
+            <div>
+              <div id="Header">
+
+                {/* <p>Logged in, {session.user.name}</p> */}
+                Vision Quest
+                {/* {currentPage} */}
+                <span>TeamName: {teamName}</span>
+                <span>TeamNumber: {teamNumber}</span>
+                <span>LeaderEmail: {leaderEmail}</span>
+                <span>{currentRound}</span>
+              </div>
+
+              <div id="Content">
+                {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
+                {stage == "wait" && <Waiting onProceed={()=>{setStage("investors")}} />}
+                {/* display round 2 details */}
+                {stage == "investors" && <Investors onProceed={() => { setStage("abc") }} />}
+                {stage == "end" && <End />}
+
+                <button onClick={() => signOut()}>Log Out</button>
               </div>
               <span class="round">{currentRound}</span>
               <span class="log"><button  onClick={() => signOut()}>Log Out</button></span>
