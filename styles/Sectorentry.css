@@ -196,4 +196,14 @@
     border: solid black 1px;
     border-radius: 3px ;
   }
+
+  .waitingDiv button{
+    display: absolute;
+    bottom: 2vh;
+  }
+
+  .waiting{
+    font-style: normal;
+    font-size: xx-large;
+  }
   
