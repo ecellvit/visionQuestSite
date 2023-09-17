@@ -45,7 +45,6 @@ export default function Home() {
                 <div class="round">{currentRound}</div>
               </div>
 
-
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
                 {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
@@ -60,7 +59,7 @@ export default function Home() {
             </div>
             :
             <div id="teamDetailsNotFilled" class="teamDetailsNotFilled">
-              <TeamForm onNext={() => setHasTeamDetails(true)} />
+              <TeamDetails onNext={() => setHasTeamDetails(true)} />
             </div>
         }
       </div>
