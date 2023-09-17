@@ -7,15 +7,20 @@ export default function Abc(){
   }, [])
 
   function hitApi(){
-    const backendUrl = "http://localhost:3000/api/"
-    let id = 1
-
-    fetch(backendUrl+"/abc", {
-      content: "application/json",
-      method: "GET",
-      // body: JSON.stringify({
-      //   abc: "sample data"
-      // })
+    const backendUrl = "http://localhost:3000/api/";
+    const url = backendUrl+"roundOne/postSector";
+    console.log(url)
+    fetch(url, {
+      // content: "application/json",
+      method: "POST",
+      body: JSON.stringify({
+          "rnd": 2100,
+          "inventory": 1500,
+          "logistics": 1500,
+          "marketing": 1500,
+          "connectivity": 1300
+        }
+      )
     })
     .then(res=>res.json())
     .then(data=>{

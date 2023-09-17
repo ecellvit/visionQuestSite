@@ -11,14 +11,19 @@ export default function Home() {
 
   const { data: session, status } = useSession()
 
-  console.log(session, status)
+  const [hasTeamDetails, setHasTeamDetails] = useState(true)
+  const [currentRound, setCurrentRound] = useState("Round 1")
+
+  const teamName = "Asdf";
+  const teamNumber = "1234";
+  const leaderEmail = "abc@vitstudent.ac.in";
 
   const pages = [
-    <TeamForm />,
+    // <TeamForm />,
     <Abc />,
     <Def />,
     <NextPage />,
-    
+
   ]
 
   const [currentPage, setCurrentPage] = useState(pages[0])
@@ -34,19 +39,31 @@ export default function Home() {
   }
 
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
-    >
+    <div>
       {session ? <div>
-        <p>Logged in, {session.user.name}</p>
-        <button onClick={() => signOut()}>Log Out</button>
+        {
+          hasTeamDetails ?
+            <div>
+              {/* <p>Logged in, {session.user.name}</p> */}
+              Vision Quest
+              {/* {currentPage} */}
+              <span>TeamName: {teamName}</span>
+              <span>TeamNumber: {teamNumber}</span>
+              <span>LeaderEmail: {leaderEmail}</span>
+              <span>{currentRound}</span>
+              <button onClick={() => signOut()}>Log Out</button>
+              {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
+            </div>
+            :
+            <div>
+              <TeamForm onNext={() => setHasTeamDetails(true)} />
+            </div>
+        }
       </div>
         :
-        <button onClick={() => signIn()}>Login</button>
+        <button onClick={() => signIn('google')}>Get Started</button>
       }
-      Vision Quest
-      {currentPage}
-      <button onClick={() => { NextButtonClick() }}>Next</button>
-    </main>
+    </div>
+
   )
 }
