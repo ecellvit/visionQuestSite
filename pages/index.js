@@ -9,6 +9,7 @@ import End from '@/components/End'
 import Investors from '@/components/InvestorInfo'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/inverstmentInfo'
+import '@/styles/index.css'
 
 export default function Home() {
 
