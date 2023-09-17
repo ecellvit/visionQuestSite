@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
 import Def from '@/components/def'
+import Sectorentry from '@/components/Sectorentry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 
@@ -8,12 +9,16 @@ import { signIn, signOut, useSession } from 'next-auth/react'
 export default function Home() {
 
   const { data: session, status } = useSession()
+  const [cityName,setCityName]=useState("DELHI")
+  const [industryName,setIndustryName] = useState("FASHION")
 
   console.log(session, status)
 
   const pages = [
+    <Sectorentry cityName={cityName} industryName={industryName}/>,
     <Abc />,
     <Def />
+
   ]
 
   const [currentPage, setCurrentPage] = useState(pages[0])

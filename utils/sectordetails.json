@@ -1,0 +1,2312 @@
+{
+    "I.T":
+    {
+        "BANGALORE" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 1800
+            }
+        ],
+
+        "HYDERABAD" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 2300      
+            },
+
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 1600
+            }
+        ],
+
+        "PUNE" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 2100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 1600
+            }
+        ],
+
+        "CHENNAI" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 2000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 1100
+            }
+        ],
+
+        "MUMBAI" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1900      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 1000
+            }
+        ],
+
+        "DELHI" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1800     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1100       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1100       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 900
+            }
+        ],
+
+        "KOLKATA" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1700      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 800
+            }
+        ],
+
+        "AHMEDABAD" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1200      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 900      
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 700
+            }
+        ],
+
+        "INDORE" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1100     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 800       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 600
+            }
+        ],
+
+        "JAIPUR" :
+        [
+            
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the IT industry involves the process of creating and improving technology products and solutions. This includes activities like researching emerging technologies, designing new software or hardware, and testing prototypes. R&D efforts are essential for staying competitive, innovating, and keeping up with evolving customer demands.",
+                "amount": 1000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity refers to the ability of IT systems, devices, and networks to establish and maintain communication with each other. It involves the configuration and management of networks, including wired and wireless connections, to ensure data can flow efficiently and securely. In the IT industry, connectivity is vital for enabling users to access resources, such as the internet, databases, or cloud services.",
+                "amount": 700        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the IT industry involves promoting IT products and services to potential customers. This includes activities like market research, product positioning, advertising, content creation, and lead generation. Effective marketing is essential for reaching target audiences and building brand awareness, which can be crucial in a competitive IT market.",
+                "amount": 700       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "In the IT industry, logistics refers to the management of the supply chain and the movement of physical IT hardware, components, and software licenses. This encompasses tasks such as procurement, inventory management, distribution, and transportation. Efficient logistics operations are critical to ensure that IT equipment and components are delivered to the right place at the right time.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the IT industry involves tracking and controlling the stock of IT hardware, software licenses, and components. This includes managing quantities, storage, procurement, and disposal of inventory. Proper inventory management helps minimize costs, avoid overstocking or stockouts, and ensures that the right resources are available when needed.",
+                "amount": 500
+            }
+        ]
+    },
+
+    "FASHION":
+    {
+        "MUMBAI" : 
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 1800
+            }
+        ],
+
+        "DELHI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 2300      
+            },
+
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 1600
+            }
+        ],
+
+        "BANGALORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 2100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1500     
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 1600
+            }
+        ],
+
+        "CHENNAI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 2000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1300     
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 1100
+            }
+        ],
+
+        "HYDERABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1900      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1200     
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1200        
+            },
+
+             {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 1000
+            }
+        ],
+
+        "KOLKATA" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1800      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1100        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1100     
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 900
+            }
+        ],
+
+        "AHMEDABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1700      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 1000     
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 900
+            }
+        ],
+
+        "JAIPUR" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1200      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 900      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 900    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 700
+            }
+        ],
+
+        "SURAT" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 800      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 800    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 600
+            }
+        ],
+
+        "KOCHI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "In the fashion industry, research and development involve activities related to designing, creating, and improving fashion products. This can include researching fashion trends, developing new designs and styles, experimenting with fabrics and materials, and prototyping new clothing or accessory lines. R&D efforts are essential for staying innovative and competitive in the dynamic world of fashion.",
+                "amount": 1000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the fashion industry involves overseeing the stock of clothing, accessories, and related products. This includes tracking quantities, monitoring sales trends, managing seasonal inventory turnover, and ensuring that popular items are in stock. Effective inventory management helps prevent overstocking or stockouts and maximizes sales opportunities.",
+                "amount": 700      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the fashion industry encompasses the management of the supply chain for clothing and accessories. This includes tasks like sourcing raw materials (fabrics, trims, etc.), manufacturing or production coordination, warehousing, distribution, and transportation. Effective logistics ensure that fashion products are produced and delivered to retailers or customers in a timely and cost-efficient manner.",
+                "amount": 700    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the fashion industry is all about promoting clothing and accessories to target audiences. This includes activities such as market research, brand positioning, advertising, influencer partnerships, runway shows, and online and offline retail strategies. Successful marketing helps build brand awareness and drives consumer interest and engagement.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the fashion industry can refer to the network of relationships and collaborations between fashion brands, suppliers, manufacturers, retailers, and customers. It involves the communication and interaction between various stakeholders in the industry. Building and maintaining strong connections can help in sourcing materials, finding production partners, and reaching customers through online and offline channels.",
+                "amount": 500
+            }
+        ]
+    },
+    
+    "PETROCHEMICAL":
+    {
+        "MUMBAI" : 
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 1800
+            }
+        ],
+
+        "JAMNAGAR" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 2300      
+            },
+
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 1600
+            }
+        ],
+
+        "GANDHINAGAR" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 2100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 1600
+            }
+        ],
+
+        "HALDIA" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 2000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 1100
+            }
+        ],
+
+        "VISHAKHAPATNAM" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1900    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1200      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 1000
+            }
+        ],
+
+        "NAGOTHANE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1800    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1100        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1100        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 900
+            }
+        ],
+
+        "KOCHI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1700  
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 1000      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 1000      
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 800
+            }
+        ],
+
+        "PANIPAT" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1200    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1000 
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 700
+            }
+        ],
+
+        "DAHEJ" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1100     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 800       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 800      
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 600
+            }
+        ],
+
+        "BARAUNI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the petrochemical industry involve activities related to the development and improvement of chemical processes, catalysts, and technologies used in petrochemical production. This can include researching and testing new chemical compounds, optimizing production processes for efficiency and safety, and finding ways to reduce environmental impact. R&D efforts are essential for innovation, cost reduction, and regulatory compliance.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the petrochemical industry is the process of monitoring and controlling the stock of raw materials, intermediates, and finished products. This includes maintaining appropriate inventory levels to meet production demands and customer orders while avoiding overstocking, which can tie up capital, or stockouts, which can disrupt production. Effective inventory management is critical for cost control and operational efficiency.",
+                "amount": 700       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": " Logistics in the petrochemical industry encompasses the management of the supply chain, including the transportation, storage, and distribution of petrochemical products. It involves coordinating the movement of raw materials to production facilities and the distribution of finished products to customers or other industries that use petrochemicals as feedstock. Efficient logistics are critical for minimizing transportation costs and ensuring the timely delivery of products.",
+                "amount": 700    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the petrochemical industry involves promoting and selling petrochemical products to various customers and industries. This can include activities such as market analysis, product pricing, advertising, sales, and customer relationship management. Effective marketing strategies help petrochemical companies find and retain customers and explore new markets for their products.",
+                "amount": 1000      
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the petrochemical industry often refers to the network of pipelines, storage facilities, and transportation infrastructure that connects various parts of the industry. It involves the physical infrastructure used to transport raw materials, intermediate products, and finished petrochemical products from one location to another. Ensuring reliable and secure connectivity is essential for the efficient flow of materials and products within the industry.",
+                "amount": 500
+            }
+        ]
+    },
+
+    "AUTOMOBILE":
+    {
+        "CHENNAI" : 
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 1800
+            }
+        ],
+
+        "PUNE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 2300      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1800       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1800       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 1600
+            }
+        ],
+
+        "GURUGRAM" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 2100 
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1500       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 1600
+            }
+        ],
+
+        "AHMEDABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 2000    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1200      
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 1100
+            }
+        ],
+
+        "BANGALORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1900     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1200    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 1000
+            }
+        ],
+
+        "JAMSHEDPUR" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1800   
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1100      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1100    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 900
+            }
+        ],
+
+        "INDORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1700     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 800
+            }
+        ],
+
+        "KOCHI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1200     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 900     
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 900   
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 700
+            }
+        ],
+
+        "LUCKNOW" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1100    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 800       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 800    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 600
+            }
+        ],
+
+        "COIMBATORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the automobile industry involves activities related to designing, engineering, and improving vehicles, their components, and related technologies. This includes researching and developing new vehicle designs, improving fuel efficiency, safety features, and exploring alternative propulsion technologies such as electric and autonomous vehicles. R&D efforts are essential for innovation and staying competitive in the automotive market.",
+                "amount": 1000   
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the automobile industry refers to the integration of technology and communication systems within vehicles. This includes features like infotainment systems, GPS navigation, smartphone connectivity, and vehicle-to-vehicle (V2V) or vehicle-to-infrastructure (V2I) communication. Connectivity is becoming increasingly important for enhancing the driving experience, enabling safety features, and supporting functions like remote diagnostics and software updates.",
+                "amount": 700       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the automobile industry encompasses the management of the supply chain for vehicle components, parts, and finished vehicles. This includes procurement, warehousing, transportation, and distribution of automotive products. Efficient logistics are vital for ensuring that parts and vehicles are delivered to manufacturing facilities and dealerships on time to meet customer demand.",
+                "amount": 700    
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the automobile industry involves tracking and managing the stock of vehicle parts, components, and finished vehicles. This includes managing the inventory levels at manufacturing facilities, distribution centers, and dealerships. Effective inventory management is crucial for maintaining efficient production, reducing costs, and ensuring that dealerships have the right mix of vehicles in stock to meet customer demand.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the automobile industry involves promoting and selling vehicles to consumers. This includes market research, advertising, branding, digital marketing, dealer support, and public relations. Effective marketing strategies help automotive companies build brand recognition, attract potential buyers, and generate sales.",
+                "amount": 500
+            }
+        ]
+    },
+
+    "HEALTH CARE" :
+    {
+        "PUNE" : 
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 1800
+            }
+        ],
+
+        "AHMEDABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 2300     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 1600
+            }
+        ],
+
+        "BANGALORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 2100    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 1600
+            }
+        ],
+
+        "MUMBAI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 2000      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1300       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 1100
+            }
+        ],
+
+        "CHENNAI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1900     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 1000
+            }
+        ],
+
+        "HYDERABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1800      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1100       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1100        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 900
+            }
+        ],
+
+        "KOLKATA" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1700      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 800
+            }
+        ],
+
+        "DELHI-NCR" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1200     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 900       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 700
+            }
+        ],
+
+        "LUCKNOW" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 600
+            }
+        ],
+
+        "PATNA" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the healthcare industry involves activities related to the discovery, development, and improvement of medical treatments, drugs, therapies, medical devices, and healthcare technologies. This can encompass clinical trials, drug development, medical device innovation, and the pursuit of new medical knowledge. R&D efforts in healthcare are essential for advancing medical science and improving patient outcomes.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the healthcare industry refers to the ability of healthcare systems, devices, and professionals to establish and maintain communication and data sharing. This includes electronic health records (EHRs), telemedicine platforms, medical devices that transmit data, and communication networks that connect hospitals, clinics, and healthcare providers. Connectivity is crucial for timely access to patient information, coordination of care, and telehealth services.",
+                "amount": 700      
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": "Inventory management in the healthcare industry is the process of monitoring and controlling the stock of medical supplies, medications, and equipment. This includes tracking quantities, expiration dates, and ensuring that critical items are readily available when needed. Proper inventory management is crucial for patient safety, cost control, and operational efficiency in healthcare settings.",
+                "amount": 700        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the healthcare industry includes the management of the supply chain for medical supplies, equipment, medications, and other healthcare-related products. It involves procurement, warehousing, inventory management, and distribution of medical resources. Efficient logistics are vital for ensuring that healthcare facilities have the necessary supplies and equipment to provide quality care to patients.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": "Marketing in the healthcare industry involves promoting healthcare services, medical products, pharmaceuticals, and medical technologies to patients, healthcare professionals, and institutions. It encompasses strategies for patient education, healthcare provider outreach, pharmaceutical advertising, and branding of healthcare organizations. Effective healthcare marketing aims to raise awareness, build trust, and provide information to the public and healthcare professionals.",
+                "amount": 500
+            }
+        ]
+    },
+
+    "FINANCE" :
+    {
+        "MUMBAI" : 
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 2500      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 2000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 1800
+            }
+        ],
+
+        "DELHI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 2300      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 1600
+            }
+        ],
+
+        "BANGALORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 2100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1500       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1500        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 1600
+            }
+        ],
+
+        "CHENNAI" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 2000  
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1300        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1300       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 1100
+            }
+        ],
+
+        "HYDERABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1900     
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1200        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 1000
+            }
+        ],
+
+        "KOLKATA" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1800      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1100       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1100        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 900
+            }
+        ],
+
+        "AHMEDABAD" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1700      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1200       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 800
+            }
+        ],
+
+        "PUNE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1200      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 900        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1000        
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 700
+            }
+        ],
+
+        "SURAT" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1100      
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 800        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 800        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 600
+            }
+        ],
+
+        "INDORE" :
+        [
+            {
+                "id" : "1",
+                "sectorname": "Research and Development(R&D)", 
+                "details": "Research and Development in the finance industry involves activities related to the development and enhancement of financial products, services, and technologies. This includes developing new investment strategies, risk assessment models, trading algorithms, financial software, and innovative financial products. R&D efforts are essential for staying competitive, managing risk, and meeting evolving customer needs.",
+                "amount": 1000    
+            },
+
+            {
+                "id" : "2",
+                "sectorname": "Connectivity", 
+                "details": "Connectivity in the finance industry refers to the ability of financial systems, institutions, and networks to establish and maintain communication and data sharing. This includes electronic trading platforms, financial data feeds, interbank networks, and communication channels between financial institutions. Connectivity is crucial for real-time transactions, data exchange, and the functioning of global financial markets.",
+                "amount": 700        
+            },
+
+            {
+                "id" : "3",
+                "sectorname": "Inventory Management", 
+                "details": " Inventory management in the finance industry can be related to the management of financial instruments, such as stocks, bonds, derivatives, and other securities. It involves tracking the positions, buying and selling of financial assets, and ensuring that portfolios are balanced to meet investment objectives. Efficient inventory management is crucial for optimizing investment returns and managing risk in portfolios.",
+                "amount": 700        
+            },
+
+            {
+                "id" : "4",
+                "sectorname": "Logistics", 
+                "details": "Logistics in the finance industry can refer to the management of physical assets and resources within financial institutions. This includes the secure transport and storage of cash and valuable assets, such as precious metals or securities. Efficient logistics are critical for ensuring the safe handling and movement of assets, particularly in the case of banks and financial firms.",
+                "amount": 1000       
+            },
+
+            {
+                "id" : "5",
+                "sectorname": "Marketing", 
+                "details": " Marketing in the finance industry involves promoting financial products and services to customers and clients. This includes advertising, branding, customer relationship management, market analysis, and product development. Effective marketing strategies help financial institutions attract and retain customers, manage their reputation, and expand their customer base.",
+                "amount": 500
+            }
+        ]
+    }
+}
