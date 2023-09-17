@@ -27,16 +27,11 @@
     font-weight: bold;
     color: #060606;
     font-size: 25px;
-    position: absolute;
-    top: 5px;
-    right: 45vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .info{
-    position: absolute;
-    top: 50px;
-    left: 100px;
+    text-align: center;
 }
 
 .first,.second,.third{
@@ -47,16 +42,23 @@
 }
 
 .round{
-    position: absolute;
-    top: 100px;
     display:block;
     text-align: center;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: solid;
+    
 }
 
 .log{
     display: block;
     text-align: center;
-    position: absolute;
+    background-color: #fff; /* Background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    padding: 20px; /* Padding around content */
+    max-width: 300px; /* Max width for responsiveness */
+    margin: 0 auto; /* Center the card horizontally */
+    -align: center; /* Center-align text */
+    overflow: hidden;
+    left:45%;
 }

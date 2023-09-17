@@ -7,6 +7,7 @@ import Cities from '@/components/Cities'
 import Waiting from '@/components/waiting'
 import End from '@/components/End'
 import Investors from '@/components/Investors'
+import '@/styles/index.css'
 
 export default function Home() {
 
@@ -21,7 +22,7 @@ export default function Home() {
 
   const teamName = "Asdf";
   const teamNumber = "1234";
-  const leaderEmail = "abc@vitstudent.ac.in";
+  const Vps = "1234";
 
   return (
     <div>
@@ -30,36 +31,31 @@ export default function Home() {
           hasTeamDetails ?
             <div id="teamDetailsFilled" class="teamDetailsFilled">
               {/* <p>Logged in, {session.user.name}</p> */}
-              <p class="visionQuest">Vision Quest</p>
-              {/* {currentPage} */}
-              <div class="info">
-              <span class="first">TeamName: {teamName}</span>
-              <span class="second">TeamNumber: {teamNumber}</span>
-              <span class="third">LeaderEmail: {leaderEmail}</span>
-            <div>
-              <div id="Header">
+              <div id="header" >
 
-                {/* <p>Logged in, {session.user.name}</p> */}
-                Vision Quest
+                <p class="visionQuest">Vision Quest</p>
+
                 {/* {currentPage} */}
-                <span>TeamName: {teamName}</span>
-                <span>TeamNumber: {teamNumber}</span>
-                <span>LeaderEmail: {leaderEmail}</span>
-                <span>{currentRound}</span>
+                <div class="info">
+                  <span class="first">TeamName: {teamName}</span>
+                  <span class="second">TeamNumber: {teamNumber}</span>
+                  <span class="third">Vps: {Vps}</span>
+
+                </div>
+                <div class="round">{currentRound}</div>
               </div>
+
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
-                {stage == "wait" && <Waiting onProceed={()=>{setStage("investors")}} />}
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={() => { setStage("wait") }} />}
+                {stage == "wait" && <Waiting onProceed={() => { setStage("investors") }} />}
                 {/* display round 2 details */}
                 {stage == "investors" && <Investors onProceed={() => { setStage("abc") }} />}
                 {stage == "end" && <End />}
-
-                <button onClick={() => signOut()}>Log Out</button>
               </div>
-              <span class="round">{currentRound}</span>
-              <span class="log"><button  onClick={() => signOut()}>Log Out</button></span>
+
+              <div class="log"><button onClick={() => signOut()}>Log Out</button></div>
               {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
@@ -70,7 +66,7 @@ export default function Home() {
       </div>
         :
         <div id="getStarted" class="getStarted">
-        <button onClick={() => signIn('google')}>Get Started</button>
+          <button onClick={() => signIn('google')}>Get Started</button>
         </div>
       }
     </div>
