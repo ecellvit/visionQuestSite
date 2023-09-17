@@ -6,12 +6,14 @@ import TeamDetails from '@/components/TeamDetails'
 import Cities from '@/components/Cities'
 import Waiting from '@/components/waiting'
 import End from '@/components/End'
-import Investors from '@/components/Investors'
-import '@/styles/index.css'
+import Investors from '@/components/InvestorInfo'
+import InvestorInfo from '@/components/InvestorInfo'
+import InvestmentInfo from '@/components/inverstmentInfo'
 
 export default function Home() {
 
   const { data: session, status } = useSession()
+
   const [cityName, setCityName] = useState("DELHI")
   const [industryName, setIndustryName] = useState("FASHION")
 
@@ -48,10 +50,10 @@ export default function Home() {
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={() => { setStage("wait") }} />}
-                {stage == "wait" && <Waiting onProceed={() => { setStage("investors") }} />}
-                {/* display round 2 details */}
-                {stage == "investors" && <Investors onProceed={() => { setStage("abc") }} />}
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
+                {stage == "wait" && <Waiting onProceed={()=>{setStage("investorsInfo")}} />}
+                {stage == "investorsInfo" && <InvestorInfo onProceed={() => { setStage("investmentInfo") }} />}
+                {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { setStage("end") }} />}
                 {stage == "end" && <End />}
               </div>
 
