@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
 import Def from '@/components/def'
-import Sectorentry from '@/components/Sectorentry'
+import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
@@ -22,7 +22,7 @@ export default function Home() {
   const leaderEmail = "abc@vitstudent.ac.in";
 
   const pages = [
-    <Sectorentry cityName={cityName} industryName={industryName}/>,
+    <SectorEntry cityName={cityName} industryName={industryName}/>,
     <Abc />,
     <Def />
     
@@ -54,7 +54,7 @@ export default function Home() {
               <span>LeaderEmail: {leaderEmail}</span>
               <span>{currentRound}</span>
               <button onClick={() => signOut()}>Log Out</button>
-              {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
+              <button onClick={() => { NextButtonClick() }}>Next</button>
             </div>
             :
             <div>

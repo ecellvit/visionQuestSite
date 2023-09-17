@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
-import "../styles/Sectorentry.css";
+import "../styles/SectorEntry.css";
 
 function Sectorentry({ cityName, industryName }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
