@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '@/styles/basic1.css';
 
-
-function NextPage() {
+export default function Cities(props) {
   // Replace with your actual team information
   const teamName = 'Team A';
   const teamNumber = '123';
@@ -133,8 +132,10 @@ function NextPage() {
           </div>
         ))}
       </div>
+
+      {/* Proceed button on all components */}
+      <button onClick={()=>{props.onProceed()}}>Proceed</button>
+
     </div>
   );
 }
-
-export default NextPage;

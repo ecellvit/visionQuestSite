@@ -1,45 +1,24 @@
-import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
-import Def from '@/components/def'
 import Sectorentry from '@/components/Sectorentry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
-import NextPage from '@/components/nextpage'
-import '@/styles/index.css'
-
+import Cities from '@/components/Cities'
 
 export default function Home() {
 
   const { data: session, status } = useSession()
-  const [cityName,setCityName]=useState("DELHI")
-  const [industryName,setIndustryName] = useState("FASHION")
+  const [cityName, setCityName] = useState("DELHI")
+  const [industryName, setIndustryName] = useState("FASHION")
 
   const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
 
+  const [stage, setStage] = useState("cities")
+
   const teamName = "Asdf";
   const teamNumber = "1234";
   const leaderEmail = "abc@vitstudent.ac.in";
-
-  const pages = [
-    <Sectorentry cityName={cityName} industryName={industryName}/>,
-    <Abc />,
-    <Def />
-    
-  ]
-
-  const [currentPage, setCurrentPage] = useState(pages[0])
-  const [i, setI] = useState(0)
-
-  useEffect(() => {
-    setCurrentPage(pages[i])
-  }, [i])
-
-  function NextButtonClick() {
-    // going to the next page
-    setI(i + 1)
-  }
 
   return (
     <div>

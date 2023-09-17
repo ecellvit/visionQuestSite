@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
 import "../styles/Sectorentry.css";
 
-function Sectorentry({ cityName, industryName }) {
+function Sectorentry({ cityName, industryName, onProceed }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
@@ -63,8 +63,9 @@ function Sectorentry({ cityName, industryName }) {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
-      });
+        console.log(data)
+        onProceed();
+      })
   }
 
   return (
@@ -72,7 +73,7 @@ function Sectorentry({ cityName, industryName }) {
       <header className="time">{formatTime()}</header>
       <main className="display-cards">
         {sectors.map((x) => (
-          <div className={"cards"}>
+          <div className={"cards"} key={x.sectorName}>
             <header className="content">
               <div>{x.sectorname}</div><br />
               <div>The base price is 200</div>
@@ -109,7 +110,7 @@ function Sectorentry({ cityName, industryName }) {
               </h1>
               <ul>
                 {Object.keys(values).map((x) => (
-                  <li className="show-value">
+                  <li className="show-value" key={x}>
                     {x}:{values[x]}
                   </li>
                 ))}
