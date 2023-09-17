@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '@/styles/basic.css';
 
-function TeamForm() {
+function TeamForm(props) {
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
   const [leaderEmail, setLeaderEmail] = useState('');
@@ -30,6 +30,7 @@ function TeamForm() {
         .then(res=>res.json())
         .then(data=>{
           console.log(data);
+          props.onNext();
         });
       }
     
