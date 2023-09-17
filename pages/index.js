@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
 import Def from '@/components/def'
+import Sectorentry from '@/components/Sectorentry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
@@ -10,6 +11,8 @@ import NextPage from '@/components/nextpage'
 export default function Home() {
 
   const { data: session, status } = useSession()
+  const [cityName,setCityName]=useState("DELHI")
+  const [industryName,setIndustryName] = useState("FASHION")
 
   const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
@@ -19,11 +22,10 @@ export default function Home() {
   const leaderEmail = "abc@vitstudent.ac.in";
 
   const pages = [
-    // <TeamForm />,
+    <Sectorentry cityName={cityName} industryName={industryName}/>,
     <Abc />,
-    <Def />,
-    <NextPage />,
-
+    <Def />
+    
   ]
 
   const [currentPage, setCurrentPage] = useState(pages[0])

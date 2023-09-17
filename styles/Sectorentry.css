@@ -1,0 +1,199 @@
+  
+  .Sector{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+
+  
+  main .display-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .cards{
+    height: 28em;
+    width: 23em;
+    background-color: white;
+    border: gray solid 5px; 
+    border-radius: 20px;
+    box-shadow: 2px skyblue;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .cards:hover{
+    background-color: gray;
+  }
+  
+  
+  .content{
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header.content{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content div{
+    font-size: large;
+    display: block;
+  }
+  
+  footer{
+    font-weight: normal;
+  }
+  
+  main .content{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .invest{
+    width: 5em;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: larger;
+    color: white;
+  }
+  
+  /* Modal Container */
+  .modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent background */
+    z-index: 1000; /* Ensure the modal is on top of other content */
+  }
+  
+  .modal.open {
+    display: flex; /* Display the modal when it's open */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Input Field */
+  input[type="text"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .modal-content>button,.popup-main>button {
+    display: inline-block;
+    padding: 2px 3px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .input-amount,.show-value{
+    margin: 5px
+  }
+  
+  
+  /* Button to Open the Modal */
+  button.open-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button.open-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .popup {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .display-block {
+    display: flex;
+  }
+  
+  .display-none {
+    display: none;
+  }
+
+  .submit-btn{
+    margin: 4px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid black 1px;
+    border-radius: 3px ;
+  }
+  
