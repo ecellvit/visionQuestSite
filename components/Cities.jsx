@@ -101,26 +101,7 @@ export default function Cities(props) {
   return (
     <div className="next-page">
       {/* Industry */}
-      <div className="industry">
-        <h2>Industry</h2>
-        {/* Display the selected industry (from the backend) */}
-        <p>{selectedIndustry}</p>
-      </div>
-
-      {/* Team Information Section */}
-      <div className="team-info">
-        <h2>Team Information</h2>
-        <div className="team-details">
-          <p>Team Name: {teamName}</p>
-          <p>Team Number: {teamNumber}</p>
-          <p>Score: {score}</p>
-        </div>
-      </div>
-
-      {/* Base Price for All Cities */}
-      <div className="base-price">
-        <h2>Base Price for All Cities: 200v.p</h2>
-      </div>
+      
 
       {/* City Cards Section */}
       <div className="city-cards">
