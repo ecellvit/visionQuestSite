@@ -12,7 +12,7 @@ function TeamDetails(props) {
       alert("Fill all values");
     }
     else{
-      
+
         const backendUrl = "http://localhost:3000/api/"
         let id = 1
     
