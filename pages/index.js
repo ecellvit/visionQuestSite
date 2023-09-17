@@ -1,44 +1,25 @@
-import { Inter } from 'next/font/google'
 import Abc from '@/components/abc'
 import Def from '@/components/def'
 import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamForm from '@/components/teamform'
-import NextPage from '@/components/nextpage'
-
+import Cities from '@/components/Cities'
 
 export default function Home() {
 
   const { data: session, status } = useSession()
-  const [cityName,setCityName]=useState("DELHI")
-  const [industryName,setIndustryName] = useState("FASHION")
+  const [cityName, setCityName] = useState("DELHI")
+  const [industryName, setIndustryName] = useState("FASHION")
 
   const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
 
+  const [stage, setStage] = useState("cities")
+
   const teamName = "Asdf";
   const teamNumber = "1234";
   const leaderEmail = "abc@vitstudent.ac.in";
-
-  const pages = [
-    <SectorEntry cityName={cityName} industryName={industryName}/>,
-    <Abc />,
-    <Def />
-    
-  ]
-
-  const [currentPage, setCurrentPage] = useState(pages[0])
-  const [i, setI] = useState(0)
-
-  useEffect(() => {
-    setCurrentPage(pages[i])
-  }, [i])
-
-  function NextButtonClick() {
-    // going to the next page
-    setI(i + 1)
-  }
 
   return (
     <div>
@@ -46,15 +27,24 @@ export default function Home() {
         {
           hasTeamDetails ?
             <div>
-              {/* <p>Logged in, {session.user.name}</p> */}
-              Vision Quest
-              {/* {currentPage} */}
-              <span>TeamName: {teamName}</span>
-              <span>TeamNumber: {teamNumber}</span>
-              <span>LeaderEmail: {leaderEmail}</span>
-              <span>{currentRound}</span>
-              <button onClick={() => signOut()}>Log Out</button>
-              <button onClick={() => { NextButtonClick() }}>Next</button>
+              <div id="Header">
+
+                {/* <p>Logged in, {session.user.name}</p> */}
+                Vision Quest
+                {/* {currentPage} */}
+                <span>TeamName: {teamName}</span>
+                <span>TeamNumber: {teamNumber}</span>
+                <span>LeaderEmail: {leaderEmail}</span>
+                <span>{currentRound}</span>
+              </div>
+
+              <div id="Content">
+                {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
+                {stage == "sectors" && <Sectorentry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("abc")}} />}
+                {stage == "abc" && <Abc />}
+                
+                <button onClick={() => signOut()}>Log Out</button>
+              </div>
             </div>
             :
             <div>
