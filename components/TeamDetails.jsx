@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import '@/styles/basic.css';
+import { useSession } from 'next-auth/react';
 
 function TeamDetails(props) {
+
+  const { data: session, status } = useSession()
+
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
   const [leaderEmail, setLeaderEmail] = useState('');
@@ -12,18 +16,23 @@ function TeamDetails(props) {
       alert("Fill all values");
     }
     else{
-
-        const backendUrl = "http://localhost:3000/api/"
+        const backendUrl = process.env.NEXT_PUBLIC_SERVER
         let id = 1
     
-        fetch(backendUrl+"/register", {
+        fetch(backendUrl+"/makeTeam", {
           content: "application/json",
           method: "POST",
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${session.accessTokenBackend}`,
+            'Access-Control-Allow-Origin': '*',
+          },
           body: JSON.stringify(
             {
-              "teamName":teamName, 
-              "teamNumber":teamNumber,
-              "teamLeaderMail":leaderEmail,
+              "teamname":teamName, 
+              "teamnumber":teamNumber,
+              "LeaderEmail":leaderEmail,
+              "Leadername":"asdf"
             }
            )
         })
