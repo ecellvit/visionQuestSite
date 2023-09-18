@@ -3,10 +3,17 @@ import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
 import "../styles/SectorEntry.css";
 
-function SectorEntry({ cityName, industryName, onProceed }) {
+export default function SectorEntry({
+  cityName,
+  industryName,
+  onProceed,
+  setVps,
+  vps,
+}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
+  const [atleastInvest, setAtleastInvest] = useState(false);
   const [sectorName, setSectorName] = useState("");
   const [basePrice, setBasePrice] = useState("");
   const [values, setValues] = useState({});
@@ -63,9 +70,9 @@ function SectorEntry({ cityName, industryName, onProceed }) {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data)
+        console.log(data);
         onProceed();
-      })
+      });
   }
 
   return (
@@ -75,12 +82,13 @@ function SectorEntry({ cityName, industryName, onProceed }) {
         {sectors.map((x) => (
           <div className={"cards"} key={x.sectorName}>
             <header className="content">
-              <div>{x.sectorname}</div><br />
+              <div>{x.sectorname}</div>
               <div>The base price is 200</div>
             </header>
             <main className="content">{x.details}</main>
             <footer className="content">
-              <button className="invest"
+              <button
+                className="invest"
                 onClick={() => {
                   openModal(x.sectorname);
                   setBasePrice(200);
@@ -96,12 +104,17 @@ function SectorEntry({ cityName, industryName, onProceed }) {
           onClose={closeModal}
           sector={sectorName}
           setValues={setValues}
+          setVps={setVps}
+          vps={vps}
+          setAtleastInvest={setAtleastInvest}
           values={values}
-          basePrice={basePrice}  
+          basePrice={basePrice}
         />
       </main>
       <footer className="submit">
-        <button className="submit-btn" onClick={togglePopup}>Submit</button>
+        <button className="submit-btn" onClick={togglePopup}>
+          Submit
+        </button>
         {showPopup && (
           <div className={showHideClassName}>
             <div className="popup-main">
@@ -115,14 +128,16 @@ function SectorEntry({ cityName, industryName, onProceed }) {
                   </li>
                 ))}
               </ul>
-              <button
-                onClick={() => {
-                  console.log(values);
-                  SendSector();
-                }}
-              >
-                Invest
-              </button>
+              {atleastInvest && (
+                <button
+                  onClick={() => {
+                    console.log(values);
+                    SendSector();
+                  }}
+                >
+                  Invest
+                </button>
+              )}
               {finalSubmission && <button onClick={togglePopup}>Cancel</button>}
             </div>
           </div>
@@ -131,5 +146,3 @@ function SectorEntry({ cityName, industryName, onProceed }) {
     </div>
   );
 }
-
-export default SectorEntry;
