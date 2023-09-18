@@ -41,7 +41,6 @@ export default function Home() {
                   <span class="first">TeamName: {teamName}</span>
                   <span class="second">TeamNumber: {teamNumber}</span>
                   <span class="third">Vps: {Vps}</span>
-
                 </div>
                 <div class="round">{currentRound}</div>
               </div>
@@ -56,7 +55,6 @@ export default function Home() {
               </div>
 
               <div class="log"><button onClick={() => signOut()}>Log Out</button></div>
-              {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
             <div id="teamDetailsNotFilled" class="teamDetailsNotFilled">
