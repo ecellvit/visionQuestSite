@@ -1,0 +1,64 @@
+
+.getStarted {
+    display: inline-block;
+    background-color: #007bff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+  .getStarted:hover {
+    background-color: #060606; 
+  }
+  
+
+.visionQuest{
+    margin: auto;
+    text-align: center;
+    /*border: 3px;*/
+    /*padding: 10px;*/
+    font-weight: bold;
+    color: #060606;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info{
+    text-align: center;
+}
+
+.first,.second,.third{
+    font-weight: bold;
+    display: inline-block;
+    text-indent: 3em;
+    
+}
+
+.round{
+    display:block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: solid;
+    
+}
+
+.log{
+    display: block;
+    text-align: center;
+    background-color: #fff; /* Background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    padding: 20px; /* Padding around content */
+    max-width: 300px; /* Max width for responsiveness */
+    margin: 0 auto; /* Center the card horizontally */
+    -align: center; /* Center-align text */
+    overflow: hidden;
+    left:45%;
+}

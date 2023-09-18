@@ -1,4 +1,3 @@
-import Abc from '@/components/abc'
 import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
@@ -6,9 +5,9 @@ import TeamDetails from '@/components/TeamDetails'
 import Cities from '@/components/Cities'
 import Waiting from '@/components/waiting'
 import End from '@/components/End'
-import Investors from '@/components/InvestorInfo'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/inverstmentInfo'
+import '@/styles/index.css'
 
 export default function Home() {
 
@@ -24,23 +23,27 @@ export default function Home() {
 
   const teamName = "Asdf";
   const teamNumber = "1234";
-  const leaderEmail = "abc@vitstudent.ac.in";
+  const Vps = "1234";
 
   return (
     <div>
       {session ? <div>
         {
           hasTeamDetails ?
-            <div>
-              <div id="Header">
+            <div id="teamDetailsFilled" class="teamDetailsFilled">
+              {/* <p>Logged in, {session.user.name}</p> */}
+              <div id="header" >
 
-                {/* <p>Logged in, {session.user.name}</p> */}
-                Vision Quest
+                <p class="visionQuest">Vision Quest</p>
+
                 {/* {currentPage} */}
-                <span>TeamName: {teamName}</span>
-                <span>TeamNumber: {teamNumber}</span>
-                <span>LeaderEmail: {leaderEmail}</span>
-                <span>{currentRound}</span>
+                <div class="info">
+                  <span class="first">TeamName: {teamName}</span>
+                  <span class="second">TeamNumber: {teamNumber}</span>
+                  <span class="third">Vps: {Vps}</span>
+
+                </div>
+                <div class="round">{currentRound}</div>
               </div>
 
               <div id="Content">
@@ -50,18 +53,21 @@ export default function Home() {
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { setStage("investmentInfo") }} />}
                 {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { setStage("end") }} />}
                 {stage == "end" && <End />}
-
-                <button onClick={() => signOut()}>Log Out</button>
               </div>
+
+              <div class="log"><button onClick={() => signOut()}>Log Out</button></div>
+              {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
-            <div>
+            <div id="teamDetailsNotFilled" class="teamDetailsNotFilled">
               <TeamDetails onNext={() => setHasTeamDetails(true)} />
             </div>
         }
       </div>
         :
-        <button onClick={() => signIn('google')}>Get Started</button>
+        <div id="getStarted" class="getStarted">
+          <button onClick={() => signIn('google')}>Get Started</button>
+        </div>
       }
     </div>
 
