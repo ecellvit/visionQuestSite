@@ -1,4 +1,4 @@
-// NextPage.jsx
+ // NextPage.jsx
 import React, { useState, useEffect } from 'react';
 import '@/styles/basic1.css';
 
