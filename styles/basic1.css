@@ -5,6 +5,20 @@
   padding: 20px;
 }*/
 
+.next-page {
+  background-color: #ffffff; 
+  color: #007acc; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+  text-align: center; 
+}
+
+
 .industry h2,
 .team-info h2,
 .base-price h2 {
@@ -80,11 +94,5 @@
   margin-top: 10px;
 }
 
-.next-page {
-  background-color: #ffffff; 
-  color: #007acc; 
-  padding: 20px;
-  text-align: center; 
-}
 
 

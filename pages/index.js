@@ -20,46 +20,47 @@ export default function Home() {
   const [currentRound, setCurrentRound] = useState("Round 1")
 
   const [stage, setStage] = useState("cities")
+  const [vps,setVps] = useState(15000)
 
   const teamName = "Asdf";
   const teamNumber = "1234";
-  const Vps = "1234";
+  //const Vps = "1234";
 
   return (
     <div>
       {session ? <div>
         {
           hasTeamDetails ?
-            <div id="teamDetailsFilled" class="teamDetailsFilled">
+            <div id="teamDetailsFilled" className="teamDetailsFilled">
               {/* <p>Logged in, {session.user.name}</p> */}
               <div id="header" >
 
-                <p class="visionQuest">Vision Quest</p>
+                <p className="visionQuest">Vision Quest</p>
 
                 {/* {currentPage} */}
-                <div class="info">
-                  <span class="first">TeamName: {teamName}</span>
-                  <span class="second">TeamNumber: {teamNumber}</span>
-                  <span class="third">Vps: {Vps}</span>
+                <div className="info">
+                  <span className="first">TeamName: {teamName}</span>
+                  <span className="second">TeamNumber: {teamNumber}</span>
+                  <span className="third">Vps: {vps}</span>
 
                 </div>
-                <div class="round">{currentRound}</div>
+                <div className="round">{currentRound}</div>
               </div>
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} onProceed={()=>{setStage("wait")}} />}
-                {stage == "wait" && <Waiting onProceed={()=>{setStage("investorsInfo")}} />}
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} setVps={setVps} vps={vps} onProceed={()=>{setStage("wait")}} />}
+                {stage == "wait" && <Waiting vps={vps} onProceed={()=>{setStage("investorsInfo")}} />}
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { setStage("investmentInfo") }} />}
                 {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { setStage("end") }} />}
                 {stage == "end" && <End />}
               </div>
 
-              <div class="log"><button onClick={() => signOut()}>Log Out</button></div>
+              <div className="log"><button onClick={() => signOut()}>Log Out</button></div>
               {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
-            <div id="teamDetailsNotFilled" class="teamDetailsNotFilled">
+            <div id="teamDetailsNotFilled" className="teamDetailsNotFilled">
               <TeamDetails onNext={() => setHasTeamDetails(true)} />
             </div>
         }

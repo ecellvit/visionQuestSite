@@ -18,6 +18,25 @@
     background-color: #060606; 
   }
   
+  .teamDetailsFilled{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #Content{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : 2em;
+    padding: 10px;
+  }
+
+  
 
 .visionQuest{
     margin: auto;
@@ -50,6 +69,7 @@
 }
 
 .log{
+    justify-self: flex-end;
     display: block;
     text-align: center;
     background-color: #fff; /* Background color */
@@ -58,7 +78,5 @@
     padding: 20px; /* Padding around content */
     max-width: 300px; /* Max width for responsiveness */
     margin: 0 auto; /* Center the card horizontally */
-    -align: center; /* Center-align text */
     overflow: hidden;
-    left:45%;
 }
