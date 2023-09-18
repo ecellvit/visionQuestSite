@@ -6,7 +6,7 @@ import Cities from '@/components/Cities'
 import Waiting from '@/components/Waiting'
 import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
-import InvestmentInfo from '@/components/inverstmentInfo'
+import InvestmentInfo from '@/components/InverstmentInfo'
 import '@/styles/index.css'
 
 export default function Home() {
