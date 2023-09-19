@@ -6,25 +6,47 @@ import Cities from '@/components/Cities'
 import Waiting from '@/components/Waiting'
 import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
-import InvestmentInfo from '@/components/inverstmentInfo'
+import InvestmentInfo from '@/components/InverstmentInfo'
 import '@/styles/index.css'
 
 export default function Home() {
+
+  const backendUrl = process.env.NEXT_PUBLIC_SERVER
 
   const { data: session, status } = useSession()
 
   const [cityName, setCityName] = useState("MUMBAI")
   const [industryName, setIndustryName] = useState("PETROCHEMICAL")
 
-  const [hasTeamDetails, setHasTeamDetails] = useState(true)
+  const [hasTeamDetails, setHasTeamDetails] = useState(false)
   const [currentRound, setCurrentRound] = useState("Round 1")
 
   const [stage, setStage] = useState("cities")
-  const [vps,setVps] = useState(15000)
+  const [vps, setVps] = useState(15000)
 
   const teamName = "Asdf";
   const teamNumber = "1234";
-  //const Vps = "1234";
+
+  useEffect(() => {
+    console.log(session)
+    // initial fetch
+    if (session) {
+      console.log("fetching")
+      fetch(backendUrl + "/makeTeam", {
+        content: "application/json",
+        method: "GET",
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${session.accessTokenBackend}`,
+          'Access-Control-Allow-Origin': '*',
+        },
+      })
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+        });
+    }
+  }, [session])
 
   return (
     <div className='indexPage'>
@@ -49,15 +71,14 @@ export default function Home() {
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} setVps={setVps} vps={vps} onProceed={()=>{setStage("wait")}} />}
-                {stage == "wait" && <Waiting vps={vps} onProceed={()=>{setStage("investorsInfo")}} />}
+                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} setVps={setVps} vps={vps} onProceed={() => { setStage("wait") }} />}
+                {stage == "wait" && <Waiting vps={vps} onProceed={() => { setStage("investorsInfo") }} />}
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { setStage("investmentInfo") }} />}
                 {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { setStage("end") }} />}
                 {stage == "end" && <End />}
               </div>
 
               <div className="log"><button onClick={() => signOut()}>Log Out</button></div>
-              {/* <button onClick={() => { NextButtonClick() }}>Next</button> */}
             </div>
             :
             <div id="teamDetailsNotFilled" className="teamDetailsNotFilled">
