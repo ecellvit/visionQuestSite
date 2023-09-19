@@ -10,6 +10,7 @@ export default function SectorEntry({
   setVps,
   vps,
 }) {
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
@@ -20,7 +21,7 @@ export default function SectorEntry({
   const [count,setCount] = useState(0);
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
-
+  sectors.map(x=>x)
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
   const showHideClassName = showPopup
     ? "popup display-block"
