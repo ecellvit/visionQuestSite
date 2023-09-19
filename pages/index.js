@@ -60,20 +60,7 @@ export default function Home() {
                 <img src="visionQuestLogo.png" alt="visionQuestLogo" className="image"></img>
                 <img src="ecellLogo.png" alt="visionQuestLogo" className="image"></img>
               </div>
-                <div id="header" >
-
-                  <p className="visionQuest">Vision Quest</p>
-
-                  {/* {currentPage} */}
-                  <div className="info">
-                    <span className="first">TeamName: {teamName}</span>
-                    <span className="second">TeamNumber: {teamNumber}</span>
-                    <span className="third">Vps: {vps}</span>
-                    <span className="fourth">LeaderName: {leaderName}</span>
-
-                  </div>
-                  <div className="round">{currentRound}</div>
-                </div>
+                <div class="horizontal-line"></div>
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
