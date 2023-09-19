@@ -15,18 +15,17 @@ export default function Home() {
 
   const { data: session, status } = useSession()
 
-  const [cityName, setCityName] = useState("MUMBAI")
-  const [industryName, setIndustryName] = useState("PETROCHEMICAL")
 
   const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
 
-  const [stage, setStage] = useState("cities")
-  const [vps, setVps] = useState(15000)
-
-  const teamName = "Asdf";
-  const teamNumber = "1234";
-  const leaderName = "Arde";
+  const [stage, setStage] = useState()
+  const [vps, setVps] = useState()
+  const [teamName, setTeamName] = useState()
+  const [teamNumber, setTeamNumber] = useState()
+  const [leaderName, setLeaderName] = useState()
+  const [city, setCity] = useState()
+  const [industry, setIndustry] = useState()
 
   useEffect(() => {
     console.log(session)
@@ -44,8 +43,27 @@ export default function Home() {
       })
         .then(res => res.json())
         .then(data => {
-          console.log(data);
-        });
+          console.log(data.team);
+          
+          let currentRound = data.team.currentRound;
+          // currentRound = "investorsInfo";
+
+          setHasTeamDetails(true);
+          setVps(data.team.vps)
+          setTeamName(data.team.teamName)
+          setTeamNumber(data.team.teamNumber)
+          setLeaderName(data.team.leaderName)
+          setIndustry(data.team?.industry.toUpperCase() ?? "-")
+          setCity(data.team?.city.toUpperCase() ?? "-")
+          if (currentRound == "sectors" && data.team.hasSubmittedSectors) {
+            setStage("sectorWait")
+          } else {
+            setStage(currentRound);
+          }
+        }).catch(err => {
+          console.log("no team found");
+          setHasTeamDetails(false);
+        })
     }
   }, [session])
 
@@ -62,28 +80,29 @@ export default function Home() {
               </div>
               <div class="horizontal-line"></div>
               <div id="header" className="header">
-        
-                <div className="first">TeamName: {teamName}</div>
-                <div className="second">TeamNumber: {teamNumber}</div>
-                <div className="third">Vps: {vps}</div>
-                <div className="fourth">LeaderName: {leaderName}</div>
-              
+                <div className="detail">TeamName: {teamName}</div>
+                <div className="detail">TeamNumber: {teamNumber}</div>
+                <div className="detail">Industry: {industry}</div>
+                <div className="detail">City: {city}</div>
+                <div className="detail">VPS: {vps}</div>
+                {/* <div className="fourth">LeaderName: {leaderName}</div> */}
               </div>
-                
 
               <div id="Content">
-                {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
-                {stage == "sectors" && <SectorEntry cityName={cityName} industryName={industryName} setVps={setVps} vps={vps} onProceed={() => { setStage("wait") }} />}
-                {stage == "wait" && <Waiting vps={vps} onProceed={() => { setStage("investorsInfo") }} />}
-                {stage == "investorsInfo" && <InvestorInfo onProceed={() => { setStage("investmentInfo") }} />}
-                {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { setStage("end") }} />}
+                {stage == "not-started" && <Waiting onProceed={() => { location.reload() }} />}
+                {/* {stage == "started" && <Details onProceed={() => { location.reload() }} /> */}
+                {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
+                {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
+                {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
+                {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
+                {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />}
                 {stage == "end" && <End />}
               </div>
 
               <div className="log"><button onClick={() => signOut()}>Log Out</button></div>
             </div>
             :
-            <div id="teamDetailsNotFilled" className="teamDetailsNotFilled">
+            <div id="teamDetailsNotFilled">
               <TeamDetails onNext={() => setHasTeamDetails(true)} />
             </div>
         }
@@ -97,3 +116,10 @@ export default function Home() {
 
   )
 }
+
+"not-started"
+"cities"
+"sectors"
+"investorsInfo"
+"investmentInfo"
+"end"
