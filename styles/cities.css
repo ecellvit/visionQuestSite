@@ -66,9 +66,10 @@
 }
 
 .city-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
   gap: 5px;
   background: none;
 }
