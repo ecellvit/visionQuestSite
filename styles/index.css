@@ -71,25 +71,11 @@
     
 }
 
-.log{
-    justify-self: flex-end;
-    display: block;
-    text-align: center;
-    background-color: #fff; /* Background color */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
-    padding: 20px; /* Padding around content */
-    max-width: 300px; /* Max width for responsiveness */
-    margin: 0 auto; /* Center the card horizontally */
-    overflow: hidden;
-}
-
-
 .indexPage{
   background-image: url("/background.png");
   background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
+  /* background-position: center; */
+  /* background-repeat: repeat; */
   color: white;
 }
 
@@ -108,4 +94,7 @@
   justify-content: space-around;
   font-size: 175%;
   font-weight: 200;
+}
+.horizontal-line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Adjust the width and style as needed */
 }

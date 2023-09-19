@@ -18,7 +18,6 @@ function TeamDetails(props) {
     }
     else{
         const backendUrl = process.env.NEXT_PUBLIC_SERVER
-        let id = 1
     
         fetch(backendUrl+"/team/createTeam", {
           content: "application/json",

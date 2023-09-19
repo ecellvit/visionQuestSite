@@ -60,6 +60,7 @@ export default function Home() {
                 <img src="vg.svg" alt="visionQuestLogo" className="image"></img>
                 <img src="ecellLogo.png" alt="visionQuestLogo" className="image"></img>
               </div>
+              <div class="horizontal-line"></div>
               <div id="header" className="header">
         
                 <div className="first">TeamName: {teamName}</div>
@@ -68,6 +69,7 @@ export default function Home() {
                 <div className="fourth">LeaderName: {leaderName}</div>
               
               </div>
+                
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
