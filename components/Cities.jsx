@@ -1,6 +1,6 @@
  // NextPage.jsx
 import React, { useState, useEffect } from 'react';
-import '@/styles/basic1.css';
+import '@/styles/cities.css';
 
 export default function Cities(props) {
   // Replace with your actual team information

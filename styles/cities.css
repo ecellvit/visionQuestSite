@@ -6,7 +6,6 @@
 }*/
 
 .next-page {
-  color: #007acc; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,9 +80,9 @@
   border: 1px solid #ddd; 
   border-radius: 5px;
   text-align: center;
-  background-color: rgba(10, 9, 9, 0.5); /* Semi-transparent background */
+  /*background-color: rgba(10, 9, 9, 0.5);
     backdrop-filter: blur(10px); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
 }
 
 .city-card img {

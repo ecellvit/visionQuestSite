@@ -57,10 +57,19 @@ export default function Home() {
             <div id="teamDetailsFilled" className="teamDetailsFilled">
               {/* <p>Logged in, {session.user.name}</p> */}
               <div id="nav" className="navBar">
-                <img src="visionQuestLogo.png" alt="visionQuestLogo" className="image"></img>
+                <img src="vg.svg" alt="visionQuestLogo" className="image"></img>
                 <img src="ecellLogo.png" alt="visionQuestLogo" className="image"></img>
               </div>
-                <div class="horizontal-line"></div>
+              <div class="horizontal-line"></div>
+              <div id="header" className="header">
+        
+                <div className="first">TeamName: {teamName}</div>
+                <div className="second">TeamNumber: {teamNumber}</div>
+                <div className="third">Vps: {vps}</div>
+                <div className="fourth">LeaderName: {leaderName}</div>
+              
+              </div>
+                
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
