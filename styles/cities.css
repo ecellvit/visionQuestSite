@@ -67,15 +67,17 @@
 
 .city-cards {
   display: grid;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* gap: 5%; */
   background: none;
 }
 
 .city-card {
   width: 10em;
   height: 10em;
+  margin: 1em;
   padding: 2em;
   /* border: 1px solid #ddd;  */
   border-radius: 5px;
