@@ -100,5 +100,12 @@
 }
 
 .image{
-  margin: 2%;
+  margin: 1%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  font-size: 175%;
+  font-weight: 200;
 }
