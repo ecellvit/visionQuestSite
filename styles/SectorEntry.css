@@ -13,17 +13,18 @@
   
   .display-cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    margin-top: 20px;
 
       
   }
 
   .cards{
     height: 12em;
-    width: 50em;
-    padding: 5px;
+    width: calc(33.33% - 20px);
+    padding: 10px;
     color: white;
     border: white solid 2px;
     box-shadow: 2px skyblue;
@@ -37,6 +38,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
+  .cards h3 {
+    font-size: 0.9em; /* Adjust the font size to fit text */
+}
   
   .cards:hover{
     background-color: gray;
@@ -50,6 +54,16 @@
     flex-wrap: wrap;
     margin: 2px;
     padding: 2px;
+    font-size: 10px
+    /* flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden; 
+    white-space: nowrap;  */
   }
 
   .contentSector{
@@ -61,6 +75,7 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    font-size: 17px;
   }
   
   .time{
@@ -274,11 +289,15 @@
     font-weight: 900;
   }
 
-  @media (max-width :400px){
+  @media (max-width :768px){
     .cards{
       height: 30em;
-      width: 22em;
+      width: calc(50% - 20px);
     }
+
+    .cards h3 {
+      font-size: 0.2em; /* Adjust font size for smaller screens */
+  }
   }
 
   @media (max-width : 600px){
