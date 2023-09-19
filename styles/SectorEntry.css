@@ -130,7 +130,8 @@
   }
 
   .input-amount,.show-value{
-    margin: 5px
+    margin: 5px;
+    color: black;
   }
   
   
