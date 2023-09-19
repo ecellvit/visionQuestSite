@@ -79,10 +79,10 @@
   height: 10em;
   margin: 1em;
   padding: 2em;
-  border: 1px solid #ddd; 
+  /* border: 1px solid #ddd;  */
   border-radius: 5px;
   text-align: center;
-  background-color: rgba(160, 160, 160, 0.3);
+  background-color: rgba(160, 160, 160, 0.23);
     backdrop-filter: blur(10px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
