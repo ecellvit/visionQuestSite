@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-  background: linear-gradient(to bottom, #9b59b6, #000000);
+/*html{
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
-}
+}*/
 /* :root {
   /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
