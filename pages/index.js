@@ -26,13 +26,14 @@ export default function Home() {
 
   const teamName = "Asdf";
   const teamNumber = "1234";
+  const leaderName="Arde";
 
   useEffect(() => {
     console.log(session)
     // initial fetch
     if (session) {
       console.log("fetching")
-      fetch(backendUrl + "/makeTeam", {
+      fetch(backendUrl + "/team/getTeam/", {
         content: "application/json",
         method: "GET",
         headers: {
@@ -64,6 +65,7 @@ export default function Home() {
                   <span className="first">TeamName: {teamName}</span>
                   <span className="second">TeamNumber: {teamNumber}</span>
                   <span className="third">Vps: {vps}</span>
+                  <span className="fourth">LeaderName: {leaderName}</span>
 
                 </div>
                 <div className="round">{currentRound}</div>

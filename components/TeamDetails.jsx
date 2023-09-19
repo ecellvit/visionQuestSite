@@ -9,17 +9,18 @@ function TeamDetails(props) {
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
   const [leaderEmail, setLeaderEmail] = useState('');
+  const [leaderName, setLeaderName] = useState('');
 
   const handleNextClick = (event) => {
     event.preventDefault()
-    if(teamName==""||teamNumber==""||leaderEmail==""){
+    if(teamName==""||teamNumber==""||leaderEmail==""||leaderName==""){
       alert("Fill all values");
     }
     else{
         const backendUrl = process.env.NEXT_PUBLIC_SERVER
         let id = 1
     
-        fetch(backendUrl+"/makeTeam", {
+        fetch(backendUrl+"/team/createTeam", {
           content: "application/json",
           method: "POST",
           headers: {
@@ -29,10 +30,10 @@ function TeamDetails(props) {
           },
           body: JSON.stringify(
             {
-              "teamname":teamName, 
-              "teamnumber":teamNumber,
-              "LeaderEmail":leaderEmail,
-              "Leadername":"asdf"
+              "teamName":teamName, 
+              "teamNumber":teamNumber,
+              "leaderEmail":leaderEmail,
+              "leaderName":leaderName,
             }
            )
         })
@@ -74,6 +75,15 @@ function TeamDetails(props) {
             id="leaderEmail"
             value={leaderEmail}
             onChange={(e) => setLeaderEmail(e.target.value)}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="leaderName">Leader Name</label>
+          <input
+            type="text"
+            id="leaderName"
+            value={leaderName}
+            onChange={(e) => setLeaderName(e.target.value)}
           />
         </div>
         <input  type="submit" value="submit" className="next-button" onClick={(event)=>{handleNextClick(event)}}>
