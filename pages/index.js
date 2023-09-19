@@ -46,15 +46,15 @@ export default function Home() {
           console.log(data.team);
           
           let currentRound = data.team.currentRound;
-          currentRound = "investorsInfo";
+          // currentRound = "investorsInfo";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
           setTeamName(data.team.teamName)
           setTeamNumber(data.team.teamNumber)
           setLeaderName(data.team.leaderName)
-          setIndustry(data.team?.industry ?? "-")
-          setCity(data.team?.city ?? "-")
+          setIndustry(data.team?.industry.toUpperCase() ?? "-")
+          setCity(data.team?.city.toUpperCase() ?? "-")
           if (currentRound == "sectors" && data.team.hasSubmittedSectors) {
             setStage("sectorWait")
           } else {
@@ -84,6 +84,7 @@ export default function Home() {
                 <div className="detail">TeamNumber: {teamNumber}</div>
                 <div className="detail">Industry: {industry}</div>
                 <div className="detail">City: {city}</div>
+                <div className="detail">VPS: {vps}</div>
                 {/* <div className="fourth">LeaderName: {leaderName}</div> */}
               </div>
 
