@@ -32,8 +32,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
-    background-color: rgba(10, 9, 9, 0.5); /* Semi-transparent white background */
-    backdrop-filter: blur(10px); /* Apply a blur to the content behind */
+    background-color: rgba(10, 9, 9, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 

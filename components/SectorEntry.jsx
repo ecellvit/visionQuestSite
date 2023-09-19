@@ -17,6 +17,7 @@ export default function SectorEntry({
   const [sectorName, setSectorName] = useState("");
   const [basePrice, setBasePrice] = useState("");
   const [values, setValues] = useState({});
+  const [count,setCount] = useState(0);
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
 
@@ -86,6 +87,7 @@ export default function SectorEntry({
             onClick={() => {
               openModal(x.sectorname);
               setBasePrice(200);
+              setCount((prev)=>prev+1)
             }}
           >
             <div className="contentSector">{x.sectorname}</div>
@@ -102,6 +104,8 @@ export default function SectorEntry({
           setAtleastInvest={setAtleastInvest}
           values={values}
           basePrice={basePrice}
+          count={count}
+          setCount={setCount}
         />
       </main>
       <div className="submit">

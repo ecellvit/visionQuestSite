@@ -84,9 +84,9 @@
 }
 
 
-/* .indexPage{
-  background-image: linear-gradient(to right,rgba(120,81,169,0),rgba(120,81,169,1));
+.indexPage{
+  background: linear-gradient(to bottom, #9b59b6, #000000);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-} */
+  background-repeat: repeat;
+}
