@@ -1,4 +1,6 @@
 
+
+
 .getStarted {
     display: inline-block;
     background-color: #007bff; 
@@ -79,4 +81,12 @@
     max-width: 300px; /* Max width for responsiveness */
     margin: 0 auto; /* Center the card horizontally */
     overflow: hidden;
+}
+
+
+.indexPage{
+  background: linear-gradient(to bottom, #9b59b6, #000000);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
