@@ -1,8 +1,21 @@
 import React, { useState } from "react";
 
-function Modal({ isOpen, onClose, sector, basePrice, setValues, setVps, vps ,setAtleastInvest}) {
+function Modal({
+  isOpen,
+  onClose,
+  sector,
+  basePrice,
+  values,
+  setValues,
+  setVps,
+  vps,
+  setAtleastInvest,
+  setCount,
+  count,
+}) {
   const [inputValue, setInputValue] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [remove, setRemove] = useState(false);
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
@@ -15,10 +28,17 @@ function Modal({ isOpen, onClose, sector, basePrice, setValues, setVps, vps ,set
           alert(`Input Accepted: ${inputValue}`);
           console.log(sector);
           console.log(inputValue);
-          setValues((prev) => {
-            return { ...prev, [sector]: inputValue };
-          });
-          setVps((prev) => parseFloat(prev) - parseFloat(inputValue));
+          if(Object.keys(values).includes(sector)){
+            setVps((prev)=>parseFloat(prev)+parseFloat(values[sector])-parseFloat(inputValue))
+            setValues((prev) => {
+              return { ...prev, [sector]: inputValue };
+            })
+          }
+          else{
+            setValues((prev) => {
+              return { ...prev, [sector]: inputValue };
+            })
+          setVps((prev) => parseFloat(prev) - parseFloat(inputValue));}
           setInputValue("");
           setErrorMessage("");
           setAtleastInvest(true);
@@ -47,6 +67,25 @@ function Modal({ isOpen, onClose, sector, basePrice, setValues, setVps, vps ,set
         />
         {errorMessage && <p className="error-message">{errorMessage}</p>}
         <button onClick={handleSubmit}>Submit</button>
+
+        
+          <button
+            onClick={() => {
+              if(Object.keys(values).includes(sector)){
+                console.log("present")
+                console.log(sector)
+                setVps((prev)=>parseFloat(prev)+parseFloat(values[sector]))
+                delete values[sector]
+                alert("Removed successfully")
+                onClose();
+              }
+              else{
+                setErrorMessage("not present")
+              }
+            }}
+          >
+            Remove
+          </button>
         <button
           onClick={() => {
             setInputValue("");
