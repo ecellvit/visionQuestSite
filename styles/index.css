@@ -1,4 +1,6 @@
 
+
+
 .getStarted {
     display: inline-block;
     background-color: #007bff; 
@@ -80,3 +82,11 @@
     margin: 0 auto; /* Center the card horizontally */
     overflow: hidden;
 }
+
+
+/* .indexPage{
+  background-image: linear-gradient(to right,rgba(120,81,169,0),rgba(120,81,169,1));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */

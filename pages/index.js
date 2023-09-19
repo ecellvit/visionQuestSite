@@ -13,8 +13,8 @@ export default function Home() {
 
   const { data: session, status } = useSession()
 
-  const [cityName, setCityName] = useState("DELHI")
-  const [industryName, setIndustryName] = useState("FASHION")
+  const [cityName, setCityName] = useState("MUMBAI")
+  const [industryName, setIndustryName] = useState("PETROCHEMICAL")
 
   const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
@@ -27,7 +27,7 @@ export default function Home() {
   //const Vps = "1234";
 
   return (
-    <div>
+    <div className='indexPage'>
       {session ? <div>
         {
           hasTeamDetails ?

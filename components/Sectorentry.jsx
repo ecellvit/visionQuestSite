@@ -20,33 +20,33 @@ export default function SectorEntry({
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
 
-  const [timeInSeconds, setTimeInSeconds] = useState(600);
+  // const [timeInSeconds, setTimeInSeconds] = useState(600);
   const showHideClassName = showPopup
     ? "popup display-block"
     : "popup display-none";
 
-  useEffect(() => {
-    const countdownInterval = setInterval(() => {
-      if (timeInSeconds > 0) {
-        setTimeInSeconds(timeInSeconds - 1);
-      } else {
-        clearInterval(countdownInterval);
-        alert("time's up");
-        // setFinalSubmission(false);
-        // togglePopup();
-      }
-    }, 1000);
+  // useEffect(() => {
+  //   const countdownInterval = setInterval(() => {
+  //     if (timeInSeconds > 0) {
+  //       setTimeInSeconds(timeInSeconds - 1);
+  //     } else {
+  //       clearInterval(countdownInterval);
+  //       alert("time's up");
+  //       // setFinalSubmission(false);
+  //       // togglePopup();
+  //     }
+  //   }, 1000);
 
-    return () => {
-      clearInterval(countdownInterval);
-    };
-  }, [timeInSeconds]);
+  //   return () => {
+  //     clearInterval(countdownInterval);
+  //   };
+  // }, [timeInSeconds]);
 
-  function formatTime() {
-    const minutes = Math.floor(timeInSeconds / 60);
-    const seconds = timeInSeconds % 60;
-    return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-  }
+  // function formatTime() {
+  //   const minutes = Math.floor(timeInSeconds / 60);
+  //   const seconds = timeInSeconds % 60;
+  //   return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+  // }
 
   function togglePopup() {
     setShowPopup(!showPopup);
@@ -77,26 +77,19 @@ export default function SectorEntry({
 
   return (
     <div className="Sector">
-      <header className="time">{formatTime()}</header>
+      {/* <header className="time">{formatTime()}</header> */}
       <main className="display-cards">
         {sectors.map((x) => (
-          <div className={"cards"} key={x.sectorName}>
-            <header className="content">
-              <div>{x.sectorname}</div>
-              <div>The base price is 200</div>
-            </header>
-            <main className="content">{x.details}</main>
-            <footer className="content">
-              <button
-                className="invest"
-                onClick={() => {
-                  openModal(x.sectorname);
-                  setBasePrice(200);
-                }}
-              >
-                Invest
-              </button>
-            </footer>
+          <div
+            className={"cards"}
+            key={x.sectorName}
+            onClick={() => {
+              openModal(x.sectorname);
+              setBasePrice(200);
+            }}
+          >
+            <div className="contentSector">{x.sectorname}</div>
+            <div className="contentDetails">{x.details}</div>
           </div>
         ))}
         <Modal
@@ -111,7 +104,7 @@ export default function SectorEntry({
           basePrice={basePrice}
         />
       </main>
-      <footer className="submit">
+      <div className="submit">
         <button className="submit-btn" onClick={togglePopup}>
           Submit
         </button>
@@ -142,7 +135,7 @@ export default function SectorEntry({
             </div>
           </div>
         )}
-      </footer>
+      </div>
     </div>
   );
 }
