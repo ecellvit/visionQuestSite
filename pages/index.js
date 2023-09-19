@@ -18,7 +18,7 @@ export default function Home() {
   const [cityName, setCityName] = useState("MUMBAI")
   const [industryName, setIndustryName] = useState("PETROCHEMICAL")
 
-  const [hasTeamDetails, setHasTeamDetails] = useState(false)
+  const [hasTeamDetails, setHasTeamDetails] = useState(true)
   const [currentRound, setCurrentRound] = useState("Round 1")
 
   const [stage, setStage] = useState("cities")
@@ -26,7 +26,7 @@ export default function Home() {
 
   const teamName = "Asdf";
   const teamNumber = "1234";
-  const leaderName="Arde";
+  const leaderName = "Arde";
 
   useEffect(() => {
     console.log(session)
@@ -56,20 +56,24 @@ export default function Home() {
           hasTeamDetails ?
             <div id="teamDetailsFilled" className="teamDetailsFilled">
               {/* <p>Logged in, {session.user.name}</p> */}
-              <div id="header" >
-
-                <p className="visionQuest">Vision Quest</p>
-
-                {/* {currentPage} */}
-                <div className="info">
-                  <span className="first">TeamName: {teamName}</span>
-                  <span className="second">TeamNumber: {teamNumber}</span>
-                  <span className="third">Vps: {vps}</span>
-                  <span className="fourth">LeaderName: {leaderName}</span>
-
-                </div>
-                <div className="round">{currentRound}</div>
+              <div id="nav" className="navBar">
+                <img src="visionQuestLogo.png" alt="visionQuestLogo" className="image"></img>
+                <img src="ecellLogo.png" alt="visionQuestLogo" className="image"></img>
               </div>
+                <div id="header" >
+
+                  <p className="visionQuest">Vision Quest</p>
+
+                  {/* {currentPage} */}
+                  <div className="info">
+                    <span className="first">TeamName: {teamName}</span>
+                    <span className="second">TeamNumber: {teamNumber}</span>
+                    <span className="third">Vps: {vps}</span>
+                    <span className="fourth">LeaderName: {leaderName}</span>
+
+                  </div>
+                  <div className="round">{currentRound}</div>
+                </div>
 
               <div id="Content">
                 {stage == "cities" && <Cities onProceed={() => { setStage("sectors") }} />}
