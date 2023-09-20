@@ -67,16 +67,10 @@
 
 .city-cards {
   display: grid;
-<<<<<<< HEAD:styles/basic1.css
-  grid-template-columns: repeat(5,10em);
-  grid-template-rows: repeat(2,10em);
-  gap: 2em;
-=======
   grid-template-columns: repeat(5, 1fr);
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
   /* gap: 5%; */
->>>>>>> 2912bdd3b73f4c83393a1b39e16cf312f1c06d6b:styles/cities.css
   background: none;
 }
 
@@ -85,18 +79,10 @@
   height: 10em;
   margin: 1em;
   padding: 2em;
-<<<<<<< HEAD:styles/basic1.css
-  color: white;
-  border: 1px solid #ddd; 
-  border-radius: 5px;
-  text-align: center;
-  background-color: rgba(10, 9, 9, 0.25); /* Semi-transparent background */
-=======
   /* border: 1px solid #ddd;  */
   border-radius: 5px;
   text-align: center;
   background-color: rgba(160, 160, 160, 0.23);
->>>>>>> 2912bdd3b73f4c83393a1b39e16cf312f1c06d6b:styles/cities.css
     backdrop-filter: blur(10px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

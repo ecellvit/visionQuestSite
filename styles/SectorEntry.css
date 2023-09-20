@@ -306,6 +306,58 @@
     font-weight: 600;
   }
 
+  .leaderboard{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  table{
+
+    background-color: rgba(10, 9, 9, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* src/components/Leaderboard.css */
+
+/* .leaderboard {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
   @media (max-width :768px){
     .cards{
       height: 30em;
