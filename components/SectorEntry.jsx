@@ -10,6 +10,7 @@ export default function SectorEntry({
   setVps,
   vps,
 }) {
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
@@ -17,10 +18,11 @@ export default function SectorEntry({
   const [sectorName, setSectorName] = useState("");
   const [basePrice, setBasePrice] = useState("");
   const [values, setValues] = useState({});
+  const [array,setArray] = useState([]);
   const [count,setCount] = useState(0);
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
-
+  sectors.map(x=>x)
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
   const showHideClassName = showPopup
     ? "popup display-block"
@@ -64,16 +66,38 @@ export default function SectorEntry({
   };
 
   function SendSector() {
-    fetch(url, {
-      // content: "application/json",
-      method: "POST",
-      body: JSON.stringify(values),
+    Object.keys(sectors).map((x)=>setArray(...prev,sectors[x].sectorname))
+    Object.keys(values).map((x)=>{
+      if(array.includes(x)){
+        array[array.indexOf(x)]=parseFloat(values[x])
+      }
     })
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        onProceed();
-      });
+    array.forEach(x=>{
+      if(isNaN(x)){
+        array[array.indexOf(x)]=0;
+      }
+    })
+    const backendUrl = process.env.NEXT_PUBLIC_SERVER
+    
+        fetch(backendUrl+"/api/roundOne", {
+          content: "application/json",
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${session.accessTokenBackend}`,
+            'Access-Control-Allow-Origin': '*',
+          },
+          body: JSON.stringify(
+            {
+              array
+            }
+           )
+        })
+        .then(res=>res.json())
+        .then(data=>{
+          console.log(data);
+          props.onProceed();
+        });
   }
 
   return (

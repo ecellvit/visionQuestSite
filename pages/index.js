@@ -2,6 +2,7 @@ import SectorEntry from '@/components/SectorEntry'
 import { useEffect, useState } from 'react'
 import { signIn, signOut, useSession } from 'next-auth/react'
 import TeamDetails from '@/components/TeamDetails'
+import Questions from '@/components/Questions'
 import Cities from '@/components/Cities'
 import Waiting from '@/components/Waiting'
 import End from '@/components/End'
@@ -91,6 +92,7 @@ export default function Home() {
               <div id="Content">
                 {stage == "not-started" && <Waiting onProceed={() => { location.reload() }} />}
                 {/* {stage == "started" && <Details onProceed={() => { location.reload() }} /> */}
+                {stage == "questions" && <Questions onProceed={()=>{location.reload()}}/>}
                 {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
                 {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
                 {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
