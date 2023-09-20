@@ -68,7 +68,7 @@ financial prowess.`
       <h1>Investors</h1>
       <div className="investorListDiv">List of Investors.</div>
         {investorDetails.map((x) => (
-          <div className="investor">
+          <div key={x.name} className="investor">
             <h1>{x.name}</h1>
             <p>{x.description}</p>
           </div>
