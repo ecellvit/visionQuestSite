@@ -54,8 +54,8 @@ export default function Home() {
           setTeamName(data.team.teamName)
           setTeamNumber(data.team.teamNumber)
           setLeaderName(data.team.leaderName)
-          setIndustry(data.team?.industry.toUpperCase() ?? "-")
-          setCity(data.team?.city.toUpperCase() ?? "-")
+          setIndustry(data.team?.industry?.toUpperCase() ?? "-")
+          setCity(data.team?.city?.toUpperCase() ?? "-")
           if (currentRound == "sectors" && data.team.hasSubmittedSectors) {
             setStage("sectorWait")
           } else {
@@ -64,6 +64,7 @@ export default function Home() {
         }).catch(err => {
           console.log("no team found");
           setHasTeamDetails(false);
+          console.log(err)
         })
     }
   }, [session])
