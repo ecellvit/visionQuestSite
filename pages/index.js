@@ -92,7 +92,7 @@ export default function Home() {
 
               <div id="Content">
                 {stage == "not-started" && <Waiting onProceed={() => { location.reload() }} />}
-                {/* {stage == "started" && <Details onProceed={() => { location.reload() }} /> */}
+                {/* {stage == "started" && <Details onProceed={() => { location.reload() }} />} */}
                 {stage == "questions" && <Questions onProceed={()=>{location.reload()}}/>}
                 {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
                 {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
