@@ -48,10 +48,6 @@
     background-color: rgba(10, 9, 9, 0.5); 
     backdrop-filter: blur(10px); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-    
-  
-  
 }
 
 .investor h1 {
@@ -73,7 +69,7 @@
   font-weight: 900;
 }
 
-.proceed-button {
+.proceed_button {
   background-color: #800080;
   /* Purple background color */
   color: #fff;
@@ -93,7 +89,7 @@
   transition: background-color 0.3s ease;
 }
 
-.proceed-button:hover {
+.proceed_button:hover {
   background-color: #a94ca9;
 }
 
@@ -103,11 +99,11 @@
   margin-top: 5px;
 }
 
-.paragraph-text{
+.paragraph_text{
   font-size: 13px;
   font-weight: bold;
 }
 
-.heading-text{
+.heading_text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
