@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
-import "../styles/SectorEntry.module.css";
+import style from '@/styles/SectorEntry.module.css'
 
 export default function SectorEntry({
   cityName,
@@ -26,8 +26,8 @@ export default function SectorEntry({
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
   
   const showHideClassName = showPopup
-    ? "popup display-block"
-    : "popup display-none";
+    ? `${style.popup} ${style.display_block}`
+    : `${style.popup} ${style.display_none}`;
 
   // useEffect(() => {
   //   const countdownInterval = setInterval(() => {
@@ -98,12 +98,12 @@ export default function SectorEntry({
   }
 
   return (
-    <div className="Sector">
-      {/* <header className="time">{formatTime()}</header> */}
-      <main className="display-cards">
+    <div className={style.Sector}>
+      {/* <header className={style.time}>{formatTime()}</header> */}
+      <main className={style.display_cards}>
         {sectors.map((x) => (
           <div
-            className="cards"
+            className={style.cards}
             key={x.sectorName}
             onClick={() => {
               openModal(x.sectorname);
@@ -111,8 +111,8 @@ export default function SectorEntry({
               setCount((prev)=>prev+1)
             }}
           >
-            <div className="contentSector">{x.sectorname}</div>
-            <div className="contentDetails">{x.details}</div>
+            <div className={style.contentSector}>{x.sectorname}</div>
+            <div className={style.contentDetails}>{x.details}</div>
           </div>
         ))}
         <Modal
@@ -129,19 +129,19 @@ export default function SectorEntry({
           setCount={setCount}
         />
       </main>
-      <div className="submit">
-        <button className="submit-btn" onClick={togglePopup}>
+      <div className={style.submit}>
+        <button className={style.submit_btn} onClick={togglePopup}>
           Submit
         </button>
         {showPopup && (
           <div className={showHideClassName}>
-            <div className="popup-main">
+            <div className={style.popup_main}>
               <h1>
                 <u>Your Portfolio</u>
               </h1>
               <ul>
                 {Object.keys(values).map((x) => (
-                  <li className="show-value" key={x}>
+                  <li className={style.show_value} key={x}>
                     {x}:{values[x]}
                   </li>
                 ))}

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { signIn, signOut, useSession } from 'next-auth/react'
-import '../styles/city.module.css'
+import styles from '@/styles/city.module.css'
 
 export default function Cities(props) {
 
@@ -89,7 +89,7 @@ export default function Cities(props) {
   
   };
 
-  
+  console.log(industryData[selectedIndustry])
   const fetchDataFromBackend = () => {
     const backendUrl = process.env.NEXT_PUBLIC_SERVER
     fetch(backendUrl + "/team/getTeam/", {
@@ -119,19 +119,19 @@ export default function Cities(props) {
   }, []);
 
   return (
-    <div className="next-page">
-      <h1>List of Cities</h1>
-      <div className="city-cards">
+    <div className={styles.next_page}>
+    list of cities
+      <div className={styles.city_cards}>
     
         {industryData[selectedIndustry]?.map((city, index) => (
-          <div className="city-card" key={index}>
+          <div className={styles.city_card} key={index}>
 
-            <p className="city-name">{city}</p>
+            <p className={styles.city_name}>{city}</p>
           </div>
         ))}
       </div>
 
-    <div className="proceed-button">
+    <div className={styles.proceed_button}>
       <button onClick={()=>{props.onProceed()}}>Proceed</button>
     </div>
 

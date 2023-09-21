@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from '../styles/modal.module.css';
+import styles from '@/styles/modal.module.css' 
 
 function Modal({
   isOpen,
