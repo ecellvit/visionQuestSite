@@ -32,7 +32,6 @@ export default function Home() {
     console.log(session)
     // initial fetch
     if (session) {
-      console.log("fetching")
       fetch(backendUrl + "/team/getTeam/", {
         content: "application/json",
         method: "GET",

@@ -1,5 +1,5 @@
 {
-    "I.T": [
+    "IT": [
       "Bangalore, Karnataka",
       "Hyderabad, Telangana",
       "Pune, Maharashtra",
@@ -11,7 +11,7 @@
       "Indore, Madhya Pradesh",
       "Jaipur, Rajasthan"
     ],
-    "Fashion": [
+    "FASHION": [
       "Mumbai, Maharashtra",
       "Delhi",
       "Bangalore, Karnataka",
@@ -23,7 +23,7 @@
       "Surat, Gujarat",
       "Kochi, Kerala"
     ],
-    "Petrochemical": [
+    "PETROCHEMICAL": [
       "Mumbai, Maharashtra",
       "Jamnagar, Gujarat",
       "Gandhinagar, Gujarat",
@@ -35,7 +35,7 @@
       "Dahej, Gujarat",
       "Barauni, Bihar"
     ],
-    "Healthcare": [
+    "HEALTHCARE": [
       "Pune, Maharashtra",
       "Ahmedabad, Gujarat",
       "Bangalore, Karnataka",
@@ -47,7 +47,7 @@
       "Lucknow, Uttar Pradesh",
       "Patna, Bihar"
     ],
-    "Finance": [
+    "FINANCE": [
       "Mumbai, Maharashtra",
       "Delhi",
       "Bangalore, Karnataka",
@@ -59,7 +59,7 @@
       "Surat",
       "Indore"
     ],
-    "Automobile": [
+    "AUTOMOBILE": [
       "Chennai",
       "Pune",
       "Gurugram",

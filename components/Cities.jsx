@@ -5,16 +5,12 @@ import styles from '@/styles/city.module.css'
 
 export default function Cities(props) {
 
-  const teamName = 'Team A';
-  const teamNumber = '123';
-  const score = '100';
-
   const [selectedIndustry, setSelectedIndustry] = useState('');
   const { data: session, status } = useSession();
 
 
   const industryData = {
-    "I.T": [
+    "IT": [
       "Bangalore, Karnataka",
       "Hyderabad, Telangana",
       "Pune, Maharashtra",
@@ -26,7 +22,7 @@ export default function Cities(props) {
       "Indore, Madhya Pradesh",
       "Jaipur, Rajasthan"
     ],
-    "Fashion": [
+    "FASHION": [
       "Mumbai, Maharashtra",
       "Delhi",
       "Bangalore, Karnataka",
@@ -38,7 +34,7 @@ export default function Cities(props) {
       "Surat, Gujarat",
       "Kochi, Kerala"
     ],
-    "Petrochemical": [
+    "PETROCHEMICAL": [
       "Mumbai, Maharashtra",
       "Jamnagar, Gujarat",
       "Gandhinagar, Gujarat",
@@ -50,7 +46,7 @@ export default function Cities(props) {
       "Dahej, Gujarat",
       "Barauni, Bihar"
     ],
-    "Healthcare": [
+    "HEALTHCARE": [
       "Pune, Maharashtra",
       "Ahmedabad, Gujarat",
       "Bangalore, Karnataka",
@@ -62,7 +58,7 @@ export default function Cities(props) {
       "Lucknow, Uttar Pradesh",
       "Patna, Bihar"
     ],
-    "Finance": [
+    "FINANCE": [
       "Mumbai, Maharashtra",
       "Delhi",
       "Bangalore, Karnataka",
@@ -74,7 +70,7 @@ export default function Cities(props) {
       "Surat",
       "Indore"
     ],
-    "Automobile": [
+    "AUTOMOBILE": [
       "Chennai",
       "Pune",
       "Gurugram",
@@ -86,10 +82,8 @@ export default function Cities(props) {
       "Lucknow",
       "Coimbatore"
     ]
-  
   };
 
-  console.log(industryData[selectedIndustry])
   const fetchDataFromBackend = () => {
     const backendUrl = process.env.NEXT_PUBLIC_SERVER
     fetch(backendUrl + "/team/getTeam/", {
@@ -118,12 +112,15 @@ export default function Cities(props) {
     fetchDataFromBackend();
   }, []);
 
+  const myCities = industryData[selectedIndustry];
+  console.log("cities", industryData)
+
   return (
     <div className={styles.next_page}>
     list of cities
       <div className={styles.city_cards}>
     
-        {industryData[selectedIndustry]?.map((city, index) => (
+        {myCities?.map((city, index) => (
           <div className={styles.city_card} key={index}>
 
             <p className={styles.city_name}>{city}</p>

@@ -91,7 +91,6 @@
     text-align: center;
     font-weight: bold;
     text-decoration: solid;
-    
 }
 
 .indexPage{
@@ -100,6 +99,16 @@
   /* background-position: center; */
   /* background-repeat: repeat; */
   /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; 
+  font-family: Arial, sans-serif;
+  background-image: url("/background.png");
+  background-size: cover;
+  color: white;
 }
 
 .navBar{

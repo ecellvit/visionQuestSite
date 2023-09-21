@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
 import style from '@/styles/SectorEntry.module.css'
+import { useSession } from "next-auth/react";
 
 export default function SectorEntry({
   cityName,
@@ -10,7 +11,9 @@ export default function SectorEntry({
   setVps,
   vps,
 }) {
-  
+
+  const { data: session, status } = useSession();
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [finalSubmission, setFinalSubmission] = useState(true);
@@ -18,13 +21,14 @@ export default function SectorEntry({
   const [sectorName, setSectorName] = useState("");
   const [basePrice, setBasePrice] = useState("");
   const [values, setValues] = useState({});
-  const [array,setArray] = useState([]);
-  const [count,setCount] = useState(0);
+  const [array, setArray] = useState([]);
+  const [count, setCount] = useState(0);
+  const [ind, setInd] = useState();
 
   const sectors = sectordetails[industryName][cityName];
 
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
-  
+
   const showHideClassName = showPopup
     ? `${style.popup} ${style.display_block}`
     : `${style.popup} ${style.display_none}`;
@@ -68,33 +72,33 @@ export default function SectorEntry({
 
   function SendSector() {
     //Object.keys(sectors).map((x)=>setArray((prev)=>(...prev,sectors[x].sectorname)))
-    Object.keys(values).map((x)=>{
-      if(array.includes(x)){
-        array[array.indexOf(x)]=parseFloat(values[x])
-      }
-    })
-    array.forEach(x=>{
-      if(isNaN(x)){
-        array[array.indexOf(x)]=0;
-      }
-    })
+
+    let array = [0,0,0,0,0];
+    console.log(values, sectors);
+
+    Object.keys(values).map((x) => {
+      array[x-1] = parseFloat(values[x]);
+    });
+
+    console.log(array);
+
     const backendUrl = process.env.NEXT_PUBLIC_SERVER
-    
-        fetch(backendUrl+"/api/roundOne", {
-          content: "application/json",
-          method: "POST",
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${session.accessTokenBackend}`,
-            'Access-Control-Allow-Origin': '*',
-          },
-          body: JSON.stringify(array)
-        })
-        .then(res=>res.json())
-        .then(data=>{
-          console.log(data);
-          props.onProceed();
-        });
+
+    fetch(backendUrl + "/roundOne", {
+      content: "application/json",
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${session.accessTokenBackend}`,
+        'Access-Control-Allow-Origin': '*',
+      },
+      body: JSON.stringify(array)
+    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+        onProceed()
+      });
   }
 
   return (
@@ -106,9 +110,10 @@ export default function SectorEntry({
             className={style.cards}
             key={x.sectorName}
             onClick={() => {
+              setInd(x.id)
               openModal(x.sectorname);
               setBasePrice(200);
-              setCount((prev)=>prev+1)
+              setCount((prev) => prev + 1)
             }}
           >
             <div className={style.contentSector}>{x.sectorname}</div>
@@ -127,6 +132,7 @@ export default function SectorEntry({
           basePrice={basePrice}
           count={count}
           setCount={setCount}
+          ind={ind}
         />
       </main>
       <div className={style.submit}>

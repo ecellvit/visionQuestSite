@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from '@/styles/modal.module.css' 
+import styles from '@/styles/modal.module.css'
 
 function Modal({
   isOpen,
@@ -11,6 +11,7 @@ function Modal({
   setVps,
   vps,
   setAtleastInvest,
+  ind,
   setCount,
   count,
 }) {
@@ -29,17 +30,18 @@ function Modal({
           alert(`Input Accepted: ${inputValue}`);
           console.log(sector);
           console.log(inputValue);
-          if(Object.keys(values).includes(sector)){
-            setVps((prev)=>parseFloat(prev)+parseFloat(values[sector])-parseFloat(inputValue))
+          if (Object.keys(values).includes(sector)) {
+            setVps((prev) => parseFloat(prev) + parseFloat(values[sector]) - parseFloat(inputValue))
             setValues((prev) => {
               return { ...prev, [sector]: inputValue };
             })
           }
-          else{
+          else {
             setValues((prev) => {
-              return { ...prev, [sector]: inputValue };
+              return { ...prev, [ind]: inputValue };
             })
-          setVps((prev) => parseFloat(prev) - parseFloat(inputValue));}
+            setVps((prev) => parseFloat(prev) - parseFloat(inputValue));
+          }
           setInputValue("");
           setErrorMessage("");
           setAtleastInvest(true);
@@ -56,48 +58,51 @@ function Modal({
   };
 
   return (
-    <div className={`modal ${isOpen ? styles.open : ""}`}>
-      <div className={styles.modal_content}>
-        <h2>{sector}</h2>
-        <input
-          className={styles.input_amount}
-          type="number"
-          value={inputValue}
-          onChange={handleChange}
-          placeholder="Type something..."
-        />
-        {errorMessage && <p className={styles.error_message}>{errorMessage}</p>}
-        <button className={styles.btn}  onClick={handleSubmit}>Submit</button>
+    <>
+      {isOpen && <div className={styles.open}>
+        {/* <div className={styles.modal} > */}
+          <div className={styles.modal_content}>
+            <h2 className={styles.model_h}>{sector}</h2>
+            <input
+              className={styles.input_amount}
+              type="number"
+              value={inputValue}
+              onChange={handleChange}
+              placeholder="Type something..."
+            />
+            {errorMessage && <p className={styles.error_message}>{errorMessage}</p>}
+            <button className={styles.btn} onClick={handleSubmit}>Submit</button>
 
-        
-          <button className={styles.btn}
-            onClick={() => {
-              if(Object.keys(values).includes(sector)){
-                console.log("present")
-                console.log(sector)
-                setVps((prev)=>parseFloat(prev)+parseFloat(values[sector]))
-                delete values[sector]
-                alert("Removed successfully")
+            <button className={styles.btn}
+              onClick={() => {
+                if (Object.keys(values).includes(sector)) {
+                  console.log("present")
+                  console.log(sector)
+                  setVps((prev) => parseFloat(prev) + parseFloat(values[sector]))
+                  delete values[sector]
+                  alert("Removed successfully")
+                  onClose();
+                }
+                else {
+                  setErrorMessage("not present")
+                }
+              }}
+            >
+              Remove
+            </button>
+            <button className={styles.btn}
+              onClick={() => {
+                setInputValue("");
+                setErrorMessage("");
                 onClose();
-              }
-              else{
-                setErrorMessage("not present")
-              }
-            }}
-          >
-            Remove
-          </button>
-        <button className={styles.btn}
-          onClick={() => {
-            setInputValue("");
-            setErrorMessage("");
-            onClose();
-          }}
-        >
-          Close
-        </button>
-      </div>
-    </div>
+              }}
+            >
+              Close
+            </button>
+          </div>
+        {/* </div> */}
+      </div>}
+    </>
   );
 }
 
