@@ -28,6 +28,7 @@ export default function Home() {
   const [leaderName, setLeaderName] = useState()
   const [city, setCity] = useState()
   const [industry, setIndustry] = useState()
+  const [qualified, setQualified] = useState()
 
   useEffect(() => {
     console.log(session)
@@ -47,7 +48,7 @@ export default function Home() {
           console.log(data);
 
           let currentRound = data.team.currentRound;
-          currentRound ="sectors";
+          // currentRound ="sectors";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -56,6 +57,7 @@ export default function Home() {
           setLeaderName(data.team.leaderName)
           setIndustry(data.team?.industry?.toUpperCase() ?? "-")
           setCity(data.team?.city?.toUpperCase() ?? "-")
+          setQualified(data?.team?.isQualified)
           if (currentRound == "sectors" && data.team.hasSubmittedSectors) {
             setStage("sectorWait")
           } else {
@@ -91,16 +93,23 @@ export default function Home() {
               </div>
 
               <div id="Content">
-                {stage == "Not Started" && <Waiting onProceed={() => { location.reload() }} />}
-                {/* {stage == "started" && <Details onProceed={() => { location.reload() }} />} */}
-                {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
-                {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
-                {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
-                {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
-                {/* {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />} */}
-                {stage == "industryLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
-                {stage == "allLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
-                {stage == "end" && <End />}
+                {!qualified ? <Waiting text="You have been disqualified" onProceed={() => { location.reload() }} />
+                  :
+                  <div>
+                    {/* {stage} */}
+                    {stage == "Not Started" && <Waiting text="Waiting for other players..." onProceed={() => { location.reload() }} />}
+                    {/* {stage == "started" && <Details onProceed={() => { location.reload() }} />} */}
+                    {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
+                    {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
+                    {stage == "sectorWait" && <Waiting text="Waiting for other players..." vps={vps} onProceed={() => { location.reload() }} />}
+                    {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
+                    {/* {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />} */}
+                    {stage == "industryLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
+                    {stage == "allLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
+                    {stage == "end" && <End />}
+                  </div>
+                }
+
               </div>
 
               <div className={styles.log}><button onClick={() => signOut()}>Log Out</button></div>
