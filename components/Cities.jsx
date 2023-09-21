@@ -90,7 +90,6 @@ export default function Cities(props) {
   
   const fetchDataFromBackend = () => {
     
-    setSelectedIndustry("I.T");
   };
 
   
