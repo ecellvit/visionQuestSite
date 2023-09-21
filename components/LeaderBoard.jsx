@@ -1,17 +1,37 @@
-// src/components/Leaderboard.js
-
-import React, {Component} from 'react';
-import ApexCharts from 'apexcharts';
-//import '../styles/leaderBoard.css'
+import React from 'react';
+import ReactApexChart from 'react-apexcharts';
+import 'apexcharts/dist/apexcharts.css';
 
 export default function LeaderBoard() {
 
+  const data = {
+    "undefined": [
+        {
+            "teamName": "asdf",
+            "vps": 15000
+        }
+    ],
+    "IT": [
+        {
+            "teamName": "garvit",
+            "vps": 13500
+        }
+    ]
+}
+
   const chartOptions = {
     chart: {
-      id: 'basic-line',
+      id: 'horizontal-bar-chart',
+      type: 'bar',
+    },
+    plotOptions: {
+      bar: {
+        borderRadius:4,
+        horizontal: true,
+      },
     },
     xaxis: {
-      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+      categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5'],
     },
   };
 
@@ -24,9 +44,8 @@ export default function LeaderBoard() {
 
   return (
     <div className="chart">
-      <ApexCharts options={chartOptions} series={chartData} type="line" height={350} />
+      <ReactApexChart options={chartOptions} series={chartData} type='bar' height={350} />
     </div>
   );
-
 }
 

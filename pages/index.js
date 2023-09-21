@@ -6,6 +6,7 @@ import Questions from '@/components/Questions'
 import Cities from '@/components/Cities'
 import Waiting from '@/components/Waiting'
 import End from '@/components/End'
+import LeaderBoard from '@/components/LeaderBoard'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/InverstmentInfo'
 import '@/styles/index.module.css'
@@ -96,6 +97,7 @@ export default function Home() {
                 {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
                 {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
                 {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
+                {}
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
                 {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />}
                 {stage == "end" && <End />}

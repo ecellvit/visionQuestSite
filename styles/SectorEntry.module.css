@@ -11,7 +11,7 @@
   }
 
   
-  .display-cards{
+  .display_cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -91,7 +91,7 @@
     align-items: center;
   }
   
-  .popup-main {
+  .popup_main {
     background-color: rgb(131, 119, 136);
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@
     text-align: center;
   }
 
-  .popup-main>button {
+  .popup_main>button {
     display: inline-block;
     padding: 2px 3px;
     margin: 5px;
@@ -112,11 +112,11 @@
     cursor: pointer;
   }
   
-  .display-block {
+  .display_block {
     display: flex;
   }
   
-  .display-none {
+  .display_none {
     display: none;
   }
 
@@ -124,7 +124,7 @@
     border-radius: 15px;
   }
 
-  .submit-btn{
+  .submit_btn{
     color: white;
     width: 10em;
     height: 4em;
