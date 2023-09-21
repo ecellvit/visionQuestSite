@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/question.module.css'
+import '@/styles/question.module.css'
 
 export default function Questions(props){
     return(

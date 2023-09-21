@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { signIn, signOut, useSession } from 'next-auth/react'
-import '../styles/city.module.css'
+import '@/styles/city.module.css'
 
 export default function Cities(props) {
 
@@ -119,8 +119,7 @@ export default function Cities(props) {
   }, []);
 
   return (
-    <div className="next-page">
-      <h1>List of Cities</h1>
+    <div className={"next-page"}>
       <div className="city-cards">
     
         {industryData[selectedIndustry]?.map((city, index) => (
