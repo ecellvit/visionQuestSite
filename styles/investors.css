@@ -1,0 +1,31 @@
+.investor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #3498db;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 2em;
+    border-radius: 10px;
+  }
+
+  .investor h1{
+    font-size: x-large;
+    font-weight: 700;
+    align-self: flex-start;
+    justify-content: flex-start;
+  }
+
+  .investorList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .investorList h1{
+    font-size: xx-large;
+    font-weight: 900;
+  }

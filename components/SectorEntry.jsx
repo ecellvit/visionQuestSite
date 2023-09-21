@@ -50,7 +50,7 @@ export default function SectorEntry({
   //   const seconds = timeInSeconds % 60;
   //   return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   // }
-
+  console.log(Object.keys(sectors).map((x)=>setArray((prev)=>(prev,x))))
   function togglePopup() {
     setShowPopup(!showPopup);
   }
@@ -66,7 +66,7 @@ export default function SectorEntry({
   };
 
   function SendSector() {
-    Object.keys(sectors).map((x)=>setArray(...prev,sectors[x].sectorname))
+    //Object.keys(sectors).map((x)=>setArray((prev)=>(...prev,sectors[x].sectorname)))
     Object.keys(values).map((x)=>{
       if(array.includes(x)){
         array[array.indexOf(x)]=parseFloat(values[x])
@@ -106,7 +106,7 @@ export default function SectorEntry({
       <main className="display-cards">
         {sectors.map((x) => (
           <div
-            className={"cards"}
+            className="cards"
             key={x.sectorName}
             onClick={() => {
               openModal(x.sectorname);

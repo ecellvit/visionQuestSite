@@ -1,6 +1,7 @@
 // src/components/Leaderboard.js
 
 import React, { useState, useEffect } from 'react';
+import '../styles/leaderBoard.css'
 
 export default function LeaderBoard() {
   const [players, setPlayers] = useState([
