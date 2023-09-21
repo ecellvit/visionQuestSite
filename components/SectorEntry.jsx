@@ -98,7 +98,9 @@ export default function SectorEntry({
       .then(data => {
         console.log(data);
         onProceed()
-      });
+      }).catch(err => {
+        console.log(err)
+      })
   }
 
   return (
