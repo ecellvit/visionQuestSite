@@ -35,7 +35,7 @@
   }
   
   /* Input Field */
-  input[type="text"] {
+  .input-amount {
     width: 100%;
     display: block;
     padding: 10px;
@@ -54,7 +54,7 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .btn:hover {
     background-color: #007bff;
     color: #fff;
   }
