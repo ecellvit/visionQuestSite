@@ -112,7 +112,7 @@ export default function Cities(props) {
     fetchDataFromBackend();
   }, []);
 
-  const myCities = industryData[selectedIndustry.capitalize()];
+  const myCities = industryData[selectedIndustry.toUpperCase()];
   console.log("cities", myCities)
 
   return (
