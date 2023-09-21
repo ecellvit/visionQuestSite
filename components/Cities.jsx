@@ -112,12 +112,11 @@ export default function Cities(props) {
     fetchDataFromBackend();
   }, []);
 
-  const myCities = industryData[selectedIndustry];
-  console.log("cities", industryData)
+  const myCities = industryData[selectedIndustry.capitalize()];
+  console.log("cities", myCities)
 
   return (
     <div className={styles.next_page}>
-    list of cities
       <div className={styles.city_cards}>
     
         {myCities?.map((city, index) => (
