@@ -1,44 +1,32 @@
 // src/components/Leaderboard.js
 
-import React, { useState, useEffect } from 'react';
+import React, {Component} from 'react';
+import ApexCharts from 'apexcharts';
+//import '../styles/leaderBoard.css'
 
 export default function LeaderBoard() {
-  const [players, setPlayers] = useState([
-    { id: 1, name: 'Player 1', score: 100 },
-    { id: 2, name: 'Player 2', score: 80 },
-    { id: 3, name: 'Player 3', score: 120 },
-    // Add more players as needed
-  ]);
 
-  useEffect(() => {
-    // Sort players by score
-    const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
-    setPlayers(sortedPlayers);
-  }, []);
+  const chartOptions = {
+    chart: {
+      id: 'basic-line',
+    },
+    xaxis: {
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    },
+  };
+
+  const chartData = [
+    {
+      name: 'Series 1',
+      data: [30, 40, 25, 50, 49],
+    },
+  ];
 
   return (
-    <div className="leaderboard">
-      <h1>Leaderboard</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Name</th>
-            <th>Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          {players.map((player, index) => (
-            <tr key={player.id}>
-              <td>{index + 1}</td>
-              <td>{player.name}</td>
-              <td>{player.score}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="chart">
+      <ApexCharts options={chartOptions} series={chartData} type="line" height={350} />
     </div>
   );
-}
 
+}
 

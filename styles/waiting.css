@@ -1,0 +1,32 @@
+.waitingDiv button{
+    display: absolute;
+    bottom: 2vh;
+  }
+
+  /* .waiting{
+    font-style: normal;
+    font-size: xx-large;
+  } */
+
+  .waiting {
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#f39c12;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: xx-large;
+    font-weight: 700;
+  }
+
+  @media (max-width : 600px){
+    .waiting{
+      width: 70vw;
+      height: 30vh;
+    }
+  }
