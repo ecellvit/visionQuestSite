@@ -9,6 +9,7 @@ import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/InverstmentInfo'
 import styles from '@/styles/index.module.css'
+import LeaderBoard from '@/components/LeaderBoard'
 
 export default function Home() {
 
@@ -44,9 +45,9 @@ export default function Home() {
         .then(res => res.json())
         .then(data => {
           console.log(data);
-          
+
           let currentRound = data.team.currentRound;
-          // currentRound ="end";
+          currentRound ="sectors";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -97,6 +98,8 @@ export default function Home() {
                 {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
                 {/* {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />} */}
+                {stage == "industryLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
+                {stage == "allLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
                 {stage == "end" && <End />}
               </div>
 

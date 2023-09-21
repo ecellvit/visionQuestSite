@@ -1,26 +1,77 @@
-import React from 'react';
-import ReactApexChart from 'react-apexcharts';
+import React, { useEffect, useState } from 'react';
+// import ReactApexChart from 'react-apexcharts';
 import 'apexcharts/dist/apexcharts.css';
-import '@/styles/leaderBoard.module.css';
+import dynamic from "next/dynamic";
+const ReactApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
+import styles from '@/styles/leaderBoard.module.css';
 
-export default function LeaderBoard() {
+export default function LeaderBoard(props) {
 
-  const data = {
-    "undefined": [
-        {
-            "teamName": "asdf",
-            "vps": 15000
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    fetch(process.env.NEXT_PUBLIC_SERVER + "/getVps", {
+      content: "application/json",
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+      },
+    }).then(res => res.json())
+      .then(dt => {
+        console.log("chart", dt);
+
+
+        // if (props.indVise) {
+        //   let newObj = {};
+        //   for (const key in dt) {
+        //     if (key.toUpperCase() == props.industry.toUpperCase()) {
+        //       setData(dt[key])
+        //       return
+        //     }
+        //   }
+        // } else {
+        //   setData(dt);
+        // }
+
+        const allTeams = [];
+
+        for (const ct in dt) {
+          if (dt.hasOwnProperty(ct)) {
+            const teamsInCategory = dt[ct];
+
+            // Iterate through teams in the ct
+            for (const team of teamsInCategory) {
+              allTeams.push({
+                "teamName": team.teamName,
+                "ct": ct,
+                "valuation": team.valuation
+              });
+            }
+          }
         }
-    ],
-    "IT": [
-        {
-            "teamName": "garvit",
-            "vps": 13500
-        }
-    ]
-}
 
-  const chartOptions = {
+        console.log(allTeams);
+
+      }).catch(err => {
+        console.log(err)
+      })
+
+  }, []);
+
+  let chartOptions = {};
+  let chartData = [];
+
+  let names = ['asdf', 'Category 2', 'Category 3', 'Category 4', 'Category 5']
+  let vals = [44, 55, 41, 67, 22]
+
+  console.log(data);
+  if (data){
+    names = data.map((team) => team.teamName);
+    vals = data.map((team) => team.valuation);
+  }
+
+  chartOptions = {
     chart: {
       id: 'horizontal-bar-chart',
       type: 'bar',
@@ -32,21 +83,25 @@ export default function LeaderBoard() {
       },
     },
     xaxis: {
-      categories: ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5'],
+      categories: names,
     },
   };
 
-  const chartData = [
+  chartData = [
     {
       name: 'Series 1',
-      data: [30, 40, 25, 50, 49],
+      data: vals,
     },
   ];
 
   return (
-    <div className="chart">
-      <ReactApexChart options={chartOptions} series={chartData} type='bar' height={350} />
-    </div>
+    <>
+      <br></br>
+      <div className={styles.chart}>
+        {/* <div>asdf</div>} */}
+        <ReactApexChart options={chartOptions} series={chartData} type='bar' height={350} />
+      </div>
+    </>
   );
 }
 
