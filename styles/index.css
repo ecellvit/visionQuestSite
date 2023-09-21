@@ -2,7 +2,7 @@
 
 
 .getStarted {
-    display: inline-block;
+    /* display: inline-block;
     background-color: #007bff; 
     color: #ffffff; 
     padding: 10px 20px; 
@@ -12,12 +12,35 @@
     cursor: pointer; 
     text-align: center; 
     text-decoration: none; 
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;  */
+    /* display: inline-block;
+    padding: 10px 20px;
+    background-color: violet;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease; */
+    display: inline-block;
+            padding: 10px 20px;
+            background-color: #103760; /* Blue background */
+            color: #fff; /* White text */
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            font-weight: bold;
   }
+
+  
   
   
   .getStarted:hover {
-    background-color: #060606; 
+    /* background-color: white;  */
+    background-color: #d303d3; /* Purple background */
+    color: #000; /* Black text */
+    
   }
   
   .teamDetailsFilled{
@@ -73,10 +96,10 @@
 
 .indexPage{
   background-image: url("/background.png");
-  background-size: cover;
+  /* background-size: cover; */
   /* background-position: center; */
   /* background-repeat: repeat; */
-  color: white;
+  /* color: white; */
 }
 
 .navBar{

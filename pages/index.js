@@ -47,7 +47,7 @@ export default function Home() {
           console.log(data.team);
           
           let currentRound = data.team.currentRound;
-          // currentRound = "investorsInfo";
+          currentRound = "started";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -77,8 +77,8 @@ export default function Home() {
             <div id="teamDetailsFilled" className="teamDetailsFilled">
               {/* <p>Logged in, {session.user.name}</p> */}
               <div id="nav" className="navBar">
-                <img src="vg.svg" alt="visionQuestLogo" className="image"></img>
-                <img src="ecellLogo.png" alt="visionQuestLogo" className="image"></img>
+                <img src="visionquest.png" alt="visionQuestLogo" className="image"></img>
+                <img src="ecell.png" alt="visionQuestLogo" className="image"></img>
               </div>
               <div class="horizontal-line"></div>
               <div id="header" className="header">
