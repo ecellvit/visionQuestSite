@@ -104,7 +104,7 @@ export default function Home() {
                     {stage == "sectorWait" && <Waiting text="Waiting for other players..." vps={vps} onProceed={() => { location.reload() }} />}
                     {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
                     {/* {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />} */}
-                    {stage == "industryLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
+                    {stage == "industryLeader" && <LeaderBoard indVise={true} industry={industry} onProceed={() => { location.reload() }} />}
                     {stage == "allLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
                     {stage == "end" && <End />}
                   </div>
