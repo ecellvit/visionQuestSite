@@ -46,7 +46,7 @@ export default function Home() {
           console.log(data);
           
           let currentRound = data.team.currentRound;
-          // currentRound ="";
+          // currentRound ="end";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -96,7 +96,7 @@ export default function Home() {
                 {stage == "sectors" && <SectorEntry cityName={city} industryName={industry} setVps={setVps} vps={vps} onProceed={() => { location.reload() }} />}
                 {stage == "sectorWait" && <Waiting vps={vps} onProceed={() => { location.reload() }} />}
                 {stage == "investorsInfo" && <InvestorInfo onProceed={() => { location.reload() }} />}
-                {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />}
+                {/* {stage == "investmentInfo" && <InvestmentInfo onProceed={() => { location.reload() }} />} */}
                 {stage == "end" && <End />}
               </div>
 
