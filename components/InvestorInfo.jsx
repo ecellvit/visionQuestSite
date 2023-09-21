@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import '@/styles/investors.module.css'
-=======
-import styles from '../styles/investors.module.css'
-
->>>>>>> 1c0ba8fe0b63e494744116d21f24cb5da5d90228
 export default function InvestorInfo(props) {
   // static page for displaying round 2 information
   const investorDetails = [

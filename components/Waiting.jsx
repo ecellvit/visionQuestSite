@@ -1,9 +1,5 @@
 import React from "react"
-<<<<<<< HEAD
 import '@/styles/waiting.module.css'
-=======
-import styles from  '../styles/waiting.module.css'
->>>>>>> 1c0ba8fe0b63e494744116d21f24cb5da5d90228
 
 export default function Waiting(props,{vps}){
   return(
