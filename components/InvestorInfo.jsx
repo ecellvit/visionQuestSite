@@ -70,10 +70,11 @@ financial prowess.`
       <div className="investorListDiv">List of Investors.</div>
         {investorDetails.map((x) => (
           <div key={x.name} className="investor">
-            <h1>{x.name}</h1>
-            <p>{x.description}</p>
+            <h1 className="heading-text">{x.name}</h1>
+            <p className="paragraph-text">{x.description}</p>
           </div>
         ))}
+      <div className="proceed-button">
       <button
         onClick={() => {
           props.onProceed();
@@ -81,6 +82,7 @@ financial prowess.`
       >
         Proceed
       </button>
+      </div>
     </div>
   );
 }
