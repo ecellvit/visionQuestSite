@@ -1,4 +1,4 @@
-.next-page {
+.next_page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
     text-align: center; 
   }
   
-  .next-page h1{
+  .next_page h1{
     padding: 10px;
     margin: 10px;
     font-size: larger;
@@ -19,13 +19,13 @@
   }
 
   
-  .city-cards {
+  .city_cards {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background: none;
   }
   
-  .city-card {
+  .city_card {
     width: 10em;
     height: 10em;
     margin: 1em;
@@ -38,12 +38,12 @@
   }
   
   
-  .city-name {
+  .city_name {
     font-weight: bold;
     margin-top: 10px;
   }
 
-  .proceed-button{
+  .proceed_button{
     background-color: #800080; /* Purple background color */
     color: #fff; /* White text color */
     font-weight: bold; /* Bold text */
@@ -55,6 +55,6 @@
     transition: background-color 0.3s ease;
   }
 
-  .proceed-button:hover{
+  .proceed_button:hover{
     background-color: #a94ca9;
   }

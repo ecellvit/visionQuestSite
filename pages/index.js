@@ -47,7 +47,7 @@ export default function Home() {
           console.log(data);
           
           let currentRound = data.team.currentRound;
-          currentRound = "sectors";
+          // currentRound ="";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -63,7 +63,7 @@ export default function Home() {
           }
         }).catch(err => {
           console.log("no team found");
-          setHasTeamDetails(true);
+          setHasTeamDetails(false);
           console.log(err)
         })
     }

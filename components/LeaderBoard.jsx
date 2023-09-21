@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactApexChart from 'react-apexcharts';
 import 'apexcharts/dist/apexcharts.css';
+import '@/styles/leaderBoard.module.css';
 
 export default function LeaderBoard() {
 
