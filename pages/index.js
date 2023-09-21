@@ -44,10 +44,10 @@ export default function Home() {
       })
         .then(res => res.json())
         .then(data => {
-          console.log(data.team);
+          console.log(data);
           
           let currentRound = data.team.currentRound;
-          currentRound = "investorsInfo";
+          currentRound = "sectors";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -63,7 +63,7 @@ export default function Home() {
           }
         }).catch(err => {
           console.log("no team found");
-          setHasTeamDetails(false);
+          setHasTeamDetails(true);
           console.log(err)
         })
     }

@@ -20,9 +20,11 @@ export default function SectorEntry({
   const [values, setValues] = useState({});
   const [array,setArray] = useState([]);
   const [count,setCount] = useState(0);
+
   const sectors = sectordetails[industryName][cityName];
-  const url = "http://localhost:3000/api/roundOne/postSector";
+
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
+  
   const showHideClassName = showPopup
     ? `${style.popup} ${style.display_block}`
     : `${style.popup} ${style.display_none}`;
@@ -49,7 +51,7 @@ export default function SectorEntry({
   //   const seconds = timeInSeconds % 60;
   //   return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   // }
-  console.log(Object.keys(sectors).map((x)=>setArray((prev)=>(prev,x))))
+
   function togglePopup() {
     setShowPopup(!showPopup);
   }
