@@ -1,6 +1,6 @@
 
   
-  .form-container {
+  .form_container {
     background-color: black; 
     padding: 20px;
     border-radius: 10px;
@@ -8,27 +8,27 @@
     text-align: center;
   }
   
-  .form-title {
+  .form_title {
     font-size: 24px;
   }
   
-  .input-form {
+  .input_form {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
   
-  .form-group {
+  .form_group {
     display: flex;
     flex-direction: column;
   }
   
-  label {
+  .form_label {
     font-size: 16px;
     margin-bottom: 4px;
   }
   
-  input {
+  .form_input {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc; 
@@ -36,7 +36,7 @@
     color: black;
   }
   
-  .next-button {
+  .submit_button {
     padding: 10px;
     font-size: 18px;
     background-color: #007acc; 
@@ -46,7 +46,7 @@
     cursor: pointer;
   }
   
-  .next-button:hover {
+  .submit_button:hover {
     background-color: #005a9e; 
   }
 
