@@ -59,14 +59,14 @@ export default function Home() {
           setCity(data.team?.city?.toUpperCase() ?? "-")
           setQualified(data?.team?.isQualified)
           if (currentRound == "sectors" && data.team.hasSubmittedSectors) {
-            setStage("sectorWait")
+            setStage("sectorWait");
           } else {
             setStage(currentRound);
           }
         }).catch(err => {
           console.log("no team found");
           setHasTeamDetails(false);
-          console.log(err)
+          console.log(err);
         })
     }
   }, [session])
