@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import sectordetails from "../utils/sectordetails.json";
-import "../styles/SectorEntry.css";
+import "../styles/SectorEntry.module.css";
 
 export default function SectorEntry({
   cityName,

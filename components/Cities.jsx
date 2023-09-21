@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import '../styles/city.css'
+import { signIn, signOut, useSession } from 'next-auth/react'
+import '../styles/city.module.css'
 
 export default function Cities(props) {
 
@@ -9,6 +10,7 @@ export default function Cities(props) {
   const score = '100';
 
   const [selectedIndustry, setSelectedIndustry] = useState('');
+  const { data: session, status } = useSession();
 
 
   const industryData = {
@@ -89,8 +91,30 @@ export default function Cities(props) {
 
   
   const fetchDataFromBackend = () => {
+    const backendUrl = process.env.NEXT_PUBLIC_SERVER
+    fetch(backendUrl + "/team/getTeam/", {
+      content: "application/json",
+      method: "GET",
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${session.accessTokenBackend}`,
+        'Access-Control-Allow-Origin': '*',
+      },
+    }).then(res => res.json())
+    .then(data => {
+      console.log(data.team.industry);
+      setSelectedIndustry(data.team.industry)
+      
+    }).catch(err => {
+      console.log("no team found");
+      setHasTeamDetails(false);
+      console.log(err)
+    })
     
+<<<<<<< HEAD
     setSelectedIndustry("I.T");
+=======
+>>>>>>> c78d0ea4c9a747e0efe629a4bcb0abc238610592
   };
 
   
