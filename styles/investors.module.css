@@ -1,5 +1,5 @@
-.investor{
-    display: flex;
+.investor {
+  /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -8,24 +8,106 @@
     flex-wrap: wrap;
     margin: 5px;
     padding: 2em;
-    border-radius: 10px;
-  }
+    border-radius: 10px; */
 
-  .investor h1{
-    font-size: x-large;
-    font-weight: 700;
-    align-self: flex-start;
-    justify-content: flex-start;
-  }
-
-  .investorList{
+    /* height: max-content;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; */
+    /* height: 19em;
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    color: white;
+    border: white solid 2px;
+    box-shadow: 2px skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgba(10, 9, 9, 0.5); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 19em;
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    color: white;
+    border: white solid 2px;
+    box-shadow: 2px skyblue;
+    margin: 10px;
+    background-color: rgba(10, 9, 9, 0.5); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    
+  
+  
+}
 
-  .investorList h1{
-    font-size: xx-large;
-    font-weight: 900;
-  }
+.investor h1 {
+  font-size: large;
+  font-weight: 700;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.investorList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.investorList h1 {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.proceed-button {
+  background-color: #800080;
+  /* Purple background color */
+  color: #fff;
+  /* White text color */
+  font-weight: bold;
+  /* Bold text */
+  padding: 10px 20px;
+  /* Padding around text */
+  border: none;
+  /* No border */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Text size */
+  cursor: pointer;
+  /* Cursor style on hover */
+  transition: background-color 0.3s ease;
+}
+
+.proceed-button:hover {
+  background-color: #a94ca9;
+}
+
+.investorListDiv{
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #ffffff; /* Subdued text color (e.g., gray) */
+  margin-top: 5px;
+}
+
+.paragraph-text{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.heading-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

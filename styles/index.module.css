@@ -121,3 +121,23 @@
 .horizontal-line {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Adjust the width and style as needed */
 }
+
+.log{
+  background-color: #800080; /* Purple background color */
+  color: #ffffff; /* White text color */
+  font-weight: bold; /* Bold text */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Cursor style on hover */
+  display: block; /* Block-level element */
+  margin: 0 auto; /* Center the button horizontally */
+  text-align: center; /* Center-align text */
+  text-decoration: none; /* No underlines for links */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.log:hover{
+  background-color: #a94ca9;
+}
