@@ -8,7 +8,7 @@ import Waiting from '@/components/Waiting'
 import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/InverstmentInfo'
-import '@/styles/index.module.css'
+import styles from '@/styles/index.module.css'
 
 export default function Home() {
 
@@ -74,20 +74,20 @@ export default function Home() {
       {session ? <div>
         {
           hasTeamDetails ?
-            <div id="teamDetailsFilled" className="teamDetailsFilled">
+            <div id="teamDetailsFilled" className={styles.teamDetailsFilled}>
               {/* <p>Logged in, {session.user.name}</p> */}
-              <div id="nav" className="navBar">
-                <img src="visionquest.png" alt="visionQuestLogo" className="image"></img>
-                <img src="ecell.png" alt="visionQuestLogo" className="image"></img>
+              <div id="nav" className={styles.navBar}>
+                <img src="visionquest.png" alt="visionQuestLogo" className={styles.image}></img>
+                <img src="ecell.png" alt="visionQuestLogo" className={styles.image}></img>
               </div>
               <div class="horizontal-line"></div>
-              <div id="header" className="header">
-                <div className="detail">TeamName: {teamName}</div>
-                <div className="detail">TeamNumber: {teamNumber}</div>
-                <div className="detail">Industry: {industry}</div>
-                <div className="detail">City: {city}</div>
-                <div className="detail">VPS: {vps}</div>
-                {/* <div className="fourth">LeaderName: {leaderName}</div> */}
+              <div id="header" className={styles.header}>
+                <div className={styles.detail}>TeamName: {teamName}</div>
+                <div className={styles.detail}>TeamNumber: {teamNumber}</div>
+                <div className={styles.detail}>Industry: {industry}</div>
+                <div className={styles.detail}>City: {city}</div>
+                <div className={styles.detail}>VPS: {vps}</div>
+                {/* <div className={styles.fourth}>LeaderName: {leaderName}</div> */}
               </div>
 
               <div id="Content">
@@ -101,7 +101,7 @@ export default function Home() {
                 {stage == "end" && <End />}
               </div>
 
-              <div className="log"><button onClick={() => signOut()}>Log Out</button></div>
+              <div className={styles.log}><button onClick={() => signOut()}>Log Out</button></div>
             </div>
             :
             <div id="teamDetailsNotFilled">
@@ -110,7 +110,7 @@ export default function Home() {
         }
       </div>
         :
-        <div id="getStarted" class="getStarted">
+        <div id="getStarted" className={styles.getStarted}>
           <button onClick={() => signIn('google')}>Get Started</button>
         </div>
       }
