@@ -1,4 +1,5 @@
-import '../styles/investors.module.css'
+import styles from '../styles/investors.module.css'
+
 export default function InvestorInfo(props) {
   // static page for displaying round 2 information
   const investorDetails = [
@@ -65,16 +66,16 @@ financial prowess.`
   ];
 
   return (
-    <div className="investorList">
+    <div className={styles.investorList}>
       <h1>Investors</h1>
-      <div className="investorListDiv">List of Investors.</div>
+      <div className={styles.investorListDiv}>List of Investors.</div>
         {investorDetails.map((x) => (
-          <div key={x.name} className="investor">
-            <h1 className="heading-text">{x.name}</h1>
-            <p className="paragraph-text">{x.description}</p>
+          <div key={x.name} className={styles.investor}>
+            <h1 className={styles.heading_test}>{x.name}</h1>
+            <p className={styles.paragraph_text}>{x.description}</p>
           </div>
         ))}
-      <div className="proceed-button">
+      <div className={styles.proceed_button}>
       <button
         onClick={() => {
           props.onProceed();
