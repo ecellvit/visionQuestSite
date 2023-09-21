@@ -22,8 +22,9 @@ export default function SectorEntry({
   const [count,setCount] = useState(0);
 
   const sectors = sectordetails[industryName][cityName];
-  const url = "http://localhost:3000/api/roundOne/postSector";
+
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
+  
   const showHideClassName = showPopup
     ? "popup display-block"
     : "popup display-none";
