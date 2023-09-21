@@ -1,3 +1,6 @@
+import React from "react"
+import '../styles/waiting.css'
+
 export default function Waiting(props,{vps}){
   return(
       <div className="waitingDiv">

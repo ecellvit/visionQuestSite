@@ -1,3 +1,6 @@
+import React from "react";
+import '../styles/question.css'
+
 export default function Questions(props){
     return(
         <div className='questionList'>

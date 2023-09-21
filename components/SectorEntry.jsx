@@ -22,7 +22,6 @@ export default function SectorEntry({
   const [count,setCount] = useState(0);
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
-  sectors.map(x=>x)
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
   const showHideClassName = showPopup
     ? "popup display-block"
@@ -50,7 +49,7 @@ export default function SectorEntry({
   //   const seconds = timeInSeconds % 60;
   //   return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   // }
-
+  console.log(Object.keys(sectors).map((x)=>setArray((prev)=>(prev,x))))
   function togglePopup() {
     setShowPopup(!showPopup);
   }
@@ -66,7 +65,7 @@ export default function SectorEntry({
   };
 
   function SendSector() {
-    Object.keys(sectors).map((x)=>setArray(...prev,sectors[x].sectorname))
+    //Object.keys(sectors).map((x)=>setArray((prev)=>(...prev,sectors[x].sectorname)))
     Object.keys(values).map((x)=>{
       if(array.includes(x)){
         array[array.indexOf(x)]=parseFloat(values[x])
@@ -87,11 +86,7 @@ export default function SectorEntry({
             Authorization: `Bearer ${session.accessTokenBackend}`,
             'Access-Control-Allow-Origin': '*',
           },
-          body: JSON.stringify(
-            {
-              array
-            }
-           )
+          body: JSON.stringify(array)
         })
         .then(res=>res.json())
         .then(data=>{
@@ -106,7 +101,7 @@ export default function SectorEntry({
       <main className="display-cards">
         {sectors.map((x) => (
           <div
-            className={"cards"}
+            className="cards"
             key={x.sectorName}
             onClick={() => {
               openModal(x.sectorname);

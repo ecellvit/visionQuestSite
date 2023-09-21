@@ -1,16 +1,16 @@
- // NextPage.jsx
+
 import React, { useState, useEffect } from 'react';
-import '@/styles/cities.css';
+import '../styles/city.css'
 
 export default function Cities(props) {
-  // Replace with your actual team information
+
   const teamName = 'Team A';
   const teamNumber = '123';
   const score = '100';
 
   const [selectedIndustry, setSelectedIndustry] = useState('');
 
-  // Sample data for industry and cities (replace with data from the backend)
+
   const industryData = {
     "I.T": [
       "Bangalore, Karnataka",
@@ -84,37 +84,34 @@ export default function Cities(props) {
       "Lucknow",
       "Coimbatore"
     ]
-    // Add more industries and cities as needed
+  
   };
 
-  // Function to fetch industry-specific data from the backend
+  
   const fetchDataFromBackend = () => {
     
     setSelectedIndustry("");
   };
 
-  // Fetch data from the backend when the component mounts
+  
   useEffect(() => {
     fetchDataFromBackend();
   }, []);
 
   return (
     <div className="next-page">
-      {/* Industry */}
-      
-
-      {/* City Cards Section */}
+      <h1>List of Cities</h1>
       <div className="city-cards">
-        {/* Map through cities for the selected industry */}
+    
         {industryData[selectedIndustry]?.map((city, index) => (
           <div className="city-card" key={index}>
-            {/* You can add an image for the city here if needed */}
+
             <p className="city-name">{city}</p>
           </div>
         ))}
       </div>
 
-      {/* Proceed button on all components */}
+    
       <button onClick={()=>{props.onProceed()}}>Proceed</button>
 
     </div>
