@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '@/styles/basic.css';
+import '@/styles/teamdetails.module.css';
 import { useSession } from 'next-auth/react';
 
 function TeamDetails(props) {
