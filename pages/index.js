@@ -47,7 +47,7 @@ export default function Home() {
           console.log(data.team);
           
           let currentRound = data.team.currentRound;
-          currentRound = "started";
+          currentRound = "investorsInfo";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)

@@ -90,7 +90,7 @@ export default function Cities(props) {
   
   const fetchDataFromBackend = () => {
     
-    setSelectedIndustry("");
+    setSelectedIndustry("I.T");
   };
 
   
@@ -111,8 +111,9 @@ export default function Cities(props) {
         ))}
       </div>
 
-    
+    <div className="proceed-button">
       <button onClick={()=>{props.onProceed()}}>Proceed</button>
+    </div>
 
     </div>
   );
