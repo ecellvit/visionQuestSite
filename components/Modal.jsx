@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../styles/modal.module.css' 
+import styles from '../styles/modal.module.css';
 
 function Modal({
   isOpen,
@@ -56,21 +56,21 @@ function Modal({
   };
 
   return (
-    <div className={`modal ${isOpen ? "open" : ""}`}>
-      <div className="modal-content">
+    <div className={`modal ${isOpen ? styles.open : ""}`}>
+      <div className={styles.modal_content}>
         <h2>{sector}</h2>
         <input
-          className="input-amount"
+          className={styles.input_amount}
           type="number"
           value={inputValue}
           onChange={handleChange}
           placeholder="Type something..."
         />
-        {errorMessage && <p className="error-message">{errorMessage}</p>}
-        <button className="btn"  onClick={handleSubmit}>Submit</button>
+        {errorMessage && <p className={styles.error_message}>{errorMessage}</p>}
+        <button className={styles.btn}  onClick={handleSubmit}>Submit</button>
 
         
-          <button className="btn"
+          <button className={styles.btn}
             onClick={() => {
               if(Object.keys(values).includes(sector)){
                 console.log("present")
@@ -87,7 +87,7 @@ function Modal({
           >
             Remove
           </button>
-        <button className="btn"
+        <button className={styles.btn}
           onClick={() => {
             setInputValue("");
             setErrorMessage("");

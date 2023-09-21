@@ -17,7 +17,7 @@
   }
   
   /* Modal Content */
-  .modal-content {
+  .modal_content {
     background-color: rgb(131, 119, 136);
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
     text-align: center;
   }
 
-  .modal-content h2{
+  .modal_content h2{
     font-size: larger;
     font-weight: 700;
   }
@@ -45,7 +45,7 @@
   }
   
   
-  .modal-content>button {
+  .modal_content {
     display: inline-block;
     padding: 2px 3px;
     margin: 5px;
@@ -66,7 +66,7 @@
   
   
   /* Button to Open the Modal */
-  button.open-button {
+  .open_button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -75,7 +75,7 @@
     cursor: pointer;
   }
   
-  button.open-button:hover {
+  .open_button:hover {
     background-color: #0056b3;
   }
   
