@@ -91,7 +91,7 @@ export default function Home() {
               </div>
 
               <div id="Content">
-                {stage == "not-started" && <Waiting onProceed={() => { location.reload() }} />}
+                {stage == "Not Started" && <Waiting onProceed={() => { location.reload() }} />}
                 {/* {stage == "started" && <Details onProceed={() => { location.reload() }} />} */}
                 {stage == "questions" && <Questions onProceed={()=>{location.reload()}}/>}
                 {(stage == "cities" || stage == "started") && <Cities onProceed={() => { location.reload() }} />}
