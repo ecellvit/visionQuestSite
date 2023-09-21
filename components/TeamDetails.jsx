@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import styles from '@/styles/basic.module.css';
+import '@/styles/basic.css';
 import { useSession } from 'next-auth/react';
 
 function TeamDetails(props) {
 
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
 
   const [teamName, setTeamName] = useState('');
   const [teamNumber, setTeamNumber] = useState('');
@@ -46,51 +46,46 @@ function TeamDetails(props) {
   };
 
   return (
-    <div className={styles.form_container}>
-      <h1 className={styles.form_title}>Team Registration</h1>
-      <form className={styles.input_form}>
-        <div className={styles.form_group}>
-          <label className={styles.form_label} htmlFor="teamName">Team Name</label>
+    <div className="form-container">
+      <h1 className="form-title">Team Registration</h1>
+      <form className="input-form">
+        <div className="form-group">
+          <label htmlFor="teamName">Team Name</label>
           <input
-            className={styles.form_input}
             type="text"
             id="teamName"
             value={teamName}
             onChange={(e) => setTeamName(e.target.value)}
           />
         </div>
-        <div className={styles.form_group}>
-          <label className={styles.form_label} htmlFor="teamNumber">Team Number</label>
+        <div className="form-group">
+          <label htmlFor="teamNumber">Team Number</label>
           <input
-            className={styles.form_input}
             type="text"
             id="teamNumber"
             value={teamNumber}
             onChange={(e) => setTeamNumber(e.target.value)}
           />
         </div>
-        <div className={styles.form_group}>
-          <label className={styles.form_label} htmlFor="leaderEmail">Leader Mail ID</label>
+        <div className="form-group">
+          <label htmlFor="leaderEmail">Leader Mail ID</label>
           <input
-            className={styles.form_input}
             type="email"
             id="leaderEmail"
             value={leaderEmail}
             onChange={(e) => setLeaderEmail(e.target.value)}
           />
         </div>
-        <div className={styles.form_group}>
-          <label className={styles.form_label} htmlFor="leaderName">Leader Name</label>
+        <div className="form-group">
+          <label htmlFor="leaderName">Leader Name</label>
           <input
-            className={styles.form_input}
             type="text"
             id="leaderName"
             value={leaderName}
             onChange={(e) => setLeaderName(e.target.value)}
           />
         </div>
-        <input
-           type="submit" value="submit" className={styles.next_button} onClick={(event)=>{handleNextClick(event)}}>
+        <input  type="submit" value="submit" className="next-button" onClick={(event)=>{handleNextClick(event)}}>
         </input>
       </form>
     </div>
