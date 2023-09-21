@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../styles/modal.css'
+import '../styles/modal.module.css' 
 
 function Modal({
   isOpen,
@@ -67,10 +67,10 @@ function Modal({
           placeholder="Type something..."
         />
         {errorMessage && <p className="error-message">{errorMessage}</p>}
-        <button onClick={handleSubmit}>Submit</button>
+        <button className="btn"  onClick={handleSubmit}>Submit</button>
 
         
-          <button
+          <button className="btn"
             onClick={() => {
               if(Object.keys(values).includes(sector)){
                 console.log("present")
@@ -87,7 +87,7 @@ function Modal({
           >
             Remove
           </button>
-        <button
+        <button className="btn"
           onClick={() => {
             setInputValue("");
             setErrorMessage("");
