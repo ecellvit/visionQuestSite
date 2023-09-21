@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "bce79b85-4e2a-44d2-9318-1d41eba5deec",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27131298",
+		"_collection_link": "https://visionquest.postman.co/workspace/VisionQ~428be653-e645-4c65-8601-a60ef50d761a/collection/27131298-bce79b85-4e2a-44d2-9318-1d41eba5deec?action=share&source=collection_link&creator=27131298"
+	},
+	"item": [
+		{
+			"name": "Make Team Routes",
+			"item": [
+				{
+					"name": "/createTeam",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teamName\":\"qwer\",\r\n    \"teamNumber\":8,\r\n    \"leaderName\":\"qwerr\",\r\n    \"leaderEmail\":\"qwer@vit.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/team/createTeam",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"team",
+								"createTeam"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getTeam",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTA4YjZhMjE5YzQ0NDQ5ODU5MGQ0MzEiLCJpYXQiOjE2OTUwNjk4NTgsImV4cCI6MTY5NTUwMTg1OH0.lo7n_L39ABleEGcrHG7WUkT_k77GVb7fNyW3WwnycsQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/team/getTeam",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"team",
+								"getTeam"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin Routes",
+			"item": [
+				{
+					"name": "Assign City",
+					"item": [
+						{
+							"name": "assignCity Post Route",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"teamName\": \"rangers\",\r\n    \"amt\": 1400,\r\n    \"city\": \"Bangalore\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8080/api/admin/assignCity",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"admin",
+										"assignCity"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "assignCity GET Route",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/api/admin/assignCity",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"admin",
+										"assignCity"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Round 1",
+					"item": [
+						{
+							"name": "assignIndustry",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8080/api/admin/assignIndustry",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"admin",
+										"assignIndustry"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Round 2",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "Auth Route",
+			"item": [
+				{
+					"name": "Google auth Post Route",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/auth/googleAuth",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"googleAuth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout route",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/auth/logout",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Round1",
+			"item": [
+				{
+					"name": "GetCards",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/roundOne",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"roundOne"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "investment POST route",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    3000,0,0,0,0\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/roundOne",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"roundOne"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET scores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/getVps",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getVps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/changeState",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nextState\": \"not-started\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/admin/changeState",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"admin",
+						"changeState"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

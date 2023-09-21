@@ -90,7 +90,7 @@ export default function Cities(props) {
   // Function to fetch industry-specific data from the backend
   const fetchDataFromBackend = () => {
     
-    setSelectedIndustry("I.T");
+    setSelectedIndustry("");
   };
 
   // Fetch data from the backend when the component mounts
