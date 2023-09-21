@@ -104,7 +104,7 @@ export default function Home() {
             </div>
             :
             <div id="teamDetailsNotFilled">
-              <TeamDetails onNext={() => setHasTeamDetails(true)} />
+              <TeamDetails onNext={() => location.reload()} />
             </div>
         }
       </div>
