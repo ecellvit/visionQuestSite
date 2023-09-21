@@ -111,10 +111,6 @@ export default function Cities(props) {
       console.log(err)
     })
     
-<<<<<<< HEAD
-    setSelectedIndustry("I.T");
-=======
->>>>>>> c78d0ea4c9a747e0efe629a4bcb0abc238610592
   };
 
   
