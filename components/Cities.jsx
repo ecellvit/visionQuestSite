@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import '@/styles/cities.css';
+import '../styles/city.css'
 
 export default function Cities(props) {
 
@@ -90,7 +90,7 @@ export default function Cities(props) {
   
   const fetchDataFromBackend = () => {
     
-    setSelectedIndustry("I.T");
+    setSelectedIndustry("");
   };
 
   

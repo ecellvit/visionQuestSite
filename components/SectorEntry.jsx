@@ -22,7 +22,6 @@ export default function SectorEntry({
   const [count,setCount] = useState(0);
   const sectors = sectordetails[industryName][cityName];
   const url = "http://localhost:3000/api/roundOne/postSector";
-  sectors.map(x=>x)
   // const [timeInSeconds, setTimeInSeconds] = useState(600);
   const showHideClassName = showPopup
     ? "popup display-block"
@@ -87,11 +86,7 @@ export default function SectorEntry({
             Authorization: `Bearer ${session.accessTokenBackend}`,
             'Access-Control-Allow-Origin': '*',
           },
-          body: JSON.stringify(
-            {
-              array
-            }
-           )
+          body: JSON.stringify(array)
         })
         .then(res=>res.json())
         .then(data=>{

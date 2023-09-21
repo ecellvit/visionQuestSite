@@ -26,54 +26,6 @@
 }
 
 
-/* .industry h2,
-.team-info h2,
-.base-price h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-align: center; 
-} */
-
-/* .industry h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-} */
-
-/* .team-info h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.team-details {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.team-details p {
-  flex-basis: calc(33.33% - 10px); 
-}
-
-.base-price h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.vision-points {
-  text-align: right;
-  margin-bottom: 20px;
-} */
-
-/* .city-card-container {
-  margin-bottom: 30px;
-}
-
-.city-card-container h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-} */
-
 .city-cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
