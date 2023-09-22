@@ -4,24 +4,27 @@ export default function InvestorInfo(props) {
   const investorDetails = [
     {
       name:"Investor 1" ,
-      description :`This investor demonstrates an exceptional talent for navigating the financial
-markets, consistently achieving outstanding results. Their well-informed
-decisions often lead to favorable outcomes, leaving others in awe of their
-strategic prowess. With a keen eye for opportunity, this investor is now
-considering acquiring approximately a 13-20% stake in the company,
-sparking intrigue and curiosity among observers who are eager to uncover
-the secrets behind their impressive track record.`
+      description :`In the world of investing, this seasoned and perceptive individual stands as a beacon of
+      excellence, exemplifying the qualities of a responsible and successful investor. While their
+      brilliance may not always be immediately obvious, their results speak volumes, and their
+      contributions to the financial world are undeniable. In a landscape filled with alluring
+      alternatives, potential investors may want to carefully weigh the implications of their request for
+      a stake in ventures, considering whether it aligns with their own financial objectives and risk
+      tolerance. Low stake asking from this investor would help the companies regain control over the
+      organization. On the other hand, high stake asking would dilute the risk of multiple owners
+      making the firm more resilient in times of challenge.`
     },
     {
       name: "Investor 2",
-      description: `This investor appears to have a distinctive talent for making calculated moves
-in the stock market, frequently resulting in favorable outcomes. Their strategic
-actions often lead to significant gains, capturing the attention of those who
-closely follow market dynamics. While their methods may have their own
-intricacies, inviting intrigue, this investor is currently exploring the possibility of
-acquiring approximately 13-20% of the company. Many are interested in
-unraveling the secrets behind their unconventional yet successful approach to
-investing.`
+      description: `Their precision in assessing risks elicits admiration and curiosity, as they expertly balance the
+      tightrope between monumental success and occasional setbacks. With a unique talent for
+      dissecting complex financial landscapes, they make well-informed and calculated decisions,
+      pursuing opportunities when presented. Their commitment to exploring uncharted territories and
+      expanding the horizons of conventional investment showcases a deep dedication to crafting
+      success. The stake asking might be low but the connections and the experience bringing to the
+      table weigh more than the money given to the team. High stake asking from this investor would
+      benefit the company by providing access to new markets and investor affiliated companies in
+      the field of IT and Fashion.`
     },
     {
       name: "Investor 3",
@@ -40,27 +43,11 @@ their commitment and belief in the company's potential.`
     },
     {
       name:"Investor 4",
-      description: `In the world of investing, this seasoned and perceptive individual stands as a
-beacon of excellence, exemplifying the qualities of a responsible and
-successful investor. While their brilliance may not always be immediately
-obvious, their results speak volumes, and their contributions to the financial
-world are undeniable. However, in a landscape filled with alluring alternatives,
-potential investors may want to carefully weigh the implications of their
-request for a 10-15% stake in ventures, considering whether it aligns with
-their own financial objectives and risk tolerance.`
+      description: `In the world of investing, this seasoned individual stands as a beacon of excellence, exemplifying the qualities of a responsible and successful investor. Their results speak volumes, and their contributions to the financial world are undeniable. They offer a low stake request, which empowers companies to maintain control while still benefiting from their expertise, making them a trustworthy and invaluable asset.`
     },
     {
       name:"Investor 5",
-      description: `Their precision in assessing risks elicits both admiration and curiosity, as they
-expertly balance the tightrope between monumental success and occasional
-setbacks. With a unique talent for dissecting complex financial landscapes,
-they make well-informed and calculated decisions, fearlessly pursuing
-opportunities others may avoid due to perceived risks. Their commitment to
-exploring uncharted territories and expanding the horizons of conventional
-investment showcases a deep dedication to crafting success. Yet, in the eyes
-of some, this unwavering determination may appear as unscrupulous
-ruthlessness, casting shadows of doubt upon an otherwise stellar record of
-financial prowess.`
+      description: `This investor's precise risk assessment skills inspire admiration and curiosity. They expertly balance between success and setbacks while upholding unwavering honesty and integrity. Their unique talent for navigating complex financial landscapes, making informed decisions, and ethical investment practices makes them a good choice. Their stake request may seem modest financially, but the true value lies in their vast network and experience.  A high stake request from them promises access to new markets and investor-affiliated companies in IT and Fashion, all anchored in their reliable character.`
     }
   ];
 
