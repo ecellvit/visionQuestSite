@@ -24,7 +24,7 @@ export default function Modal ({
   };
 
   const handleSubmit = () => {
-    if (parseFloat(vps) > parseFloat(inputValue)) {
+    if (parseFloat(vps) >= parseFloat(inputValue)) {
       if (parseFloat(inputValue) >= parseFloat(basePrice)) {
         if (parseFloat(inputValue) % 50 === 0) {
           alert(`Input Accepted: ${inputValue}`);
