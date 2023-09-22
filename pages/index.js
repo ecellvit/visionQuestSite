@@ -112,11 +112,12 @@ export default function Home() {
 
               </div>
 
-              <div className={styles.log}><button onClick={() => signOut()}>Log Out</button></div>
+              {/* <div className={styles.log}><button onClick={() => signOut()}>Log Out</button></div> */}
             </div>
             :
             <div id="teamDetailsNotFilled">
               <TeamDetails onNext={() => location.reload()} />
+              <button onClick={() => signOut()}>Logout</button>
             </div>
         }
       </div>

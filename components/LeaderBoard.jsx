@@ -58,7 +58,7 @@ export default function LeaderBoard(props) {
           }
         }
 
-        console.log(allTeams);
+        console.log("sorted", allTeams.sort((a, b) => b.valuation - a.valuation));  
 
         const names = allTeams.map((team) => team.teamName);
         const vals = allTeams.map((team) => team.valuation);
