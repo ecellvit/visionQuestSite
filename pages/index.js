@@ -94,7 +94,7 @@ export default function Home() {
               </div>
 
               <div id="Content" className={styles.mainContent}>
-                {(qualified!==undefined && !qualified) ? <Waiting text="You have been disqualified" onProceed={() => { location.reload() }} />
+                {(qualified!==undefined && !qualified) ? <Waiting text="You have been eliminated" onProceed={() => { location.reload() }} />
                   :
                   <>
                     {/* {stage} */}
