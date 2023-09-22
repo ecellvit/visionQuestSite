@@ -73,7 +73,7 @@ export default function Modal ({
             {errorMessage && <p className={styles.error_message}>{errorMessage}</p>}
             <button className={styles.btn} onClick={handleSubmit}>Submit</button>
 
-            <button className={styles.btn}
+            {/* <button className={styles.btn}
               onClick={() => {
                 if (Object.keys(values).includes(sector)) {
                   console.log("present")
@@ -89,7 +89,7 @@ export default function Modal ({
               }}
             >
               Remove
-            </button>
+            </button> */}
             <button className={styles.btn}
               onClick={() => {
                 setInputValue("");
