@@ -47,7 +47,7 @@ export default function Home() {
           console.log(data);
 
           let currentRound = data.team.currentRound;
-          currentRound ="sectors";
+          // currentRound ="sector";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)

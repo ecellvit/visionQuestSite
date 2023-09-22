@@ -1,5 +1,7 @@
 /* Modal Container */
-.modal {
+
+
+.modal_content {
   display: none;
   justify-content: center;
   align-items: center;
@@ -12,12 +14,35 @@
   z-index: 1000; /* Ensure the modal is on top of other content */
 }
 
-.open {
+.open{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.open .modal_content {
   display: flex; /* Display the modal when it's open */
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(131, 119, 136);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50vw;
+  height: 30vh;
+  text-align: center;
 }
 
 /* Modal Content */
-.modal_content {
+/* .modal_content {
   background-color: rgb(131, 119, 136);
   display: flex;
   flex-direction: column;
@@ -27,7 +52,7 @@
   max-width: 400px;
   width: 100%;
   text-align: center;
-}
+} */
 
 .model_h {
   font-size: larger;
