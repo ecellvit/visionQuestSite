@@ -38,8 +38,6 @@ export default function LeaderBoard(props) {
                   "valuation": team.valuation
                 });
               }
-
-              
             }
           }
         } else {

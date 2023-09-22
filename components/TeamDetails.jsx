@@ -13,7 +13,7 @@ function TeamDetails(props) {
 
   const handleNextClick = (event) => {
     event.preventDefault()
-    if (teamName == "" || teamNumber == "" || leaderEmail == "" || leaderName == "") {
+    if (teamName == "" || leaderEmail == "" || leaderName == "") {
       alert("Fill all values");
     }
     else {
@@ -30,7 +30,7 @@ function TeamDetails(props) {
         body: JSON.stringify(
           {
             "teamName": teamName,
-            "teamNumber": teamNumber,
+            // "teamNumber": teamNumber,
             "leaderEmail": leaderEmail,
             "leaderName": leaderName,
           }
@@ -59,7 +59,7 @@ function TeamDetails(props) {
             onChange={(e) => setTeamName(e.target.value)}
           />
         </div>
-        <div className={styles.form_group}>
+        {/* <div className={styles.form_group}>
           <label htmlFor="teamNumber">Team Number</label>
           <input
             className={styles.form_input}
@@ -68,7 +68,7 @@ function TeamDetails(props) {
             value={teamNumber}
             onChange={(e) => setTeamNumber(e.target.value)}
           />
-        </div>
+        </div> */}
         <div className={styles.form_group}>
           <label className={styles.form_label} htmlFor="leaderEmail">Leader Mail ID</label>
           <input
