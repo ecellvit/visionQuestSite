@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from '@/styles/modal.module.css'
 
-function Modal({
+export default function Modal ({
   isOpen,
   onClose,
   sector,
@@ -58,7 +58,7 @@ function Modal({
   };
 
   return (
-    <>
+    <div className={styles.mainContainer}>
       {isOpen && <div className={styles.open}>
         {/* <div className={styles.modal} > */}
           <div className={styles.modal_content}>
@@ -101,9 +101,8 @@ function Modal({
             </button>
           </div>
         {/* </div> */}
-      </div>}
-    </>
+      </div>
+      }</div>
   );
-}
 
-export default Modal;
+    }
