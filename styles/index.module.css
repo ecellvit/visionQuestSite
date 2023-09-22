@@ -1,5 +1,12 @@
 /*import backgroundImage from "public/background.png";*/
 
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin-top: 50px;
+}
 
 .getStarted {
     /* display: inline-block;

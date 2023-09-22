@@ -8,8 +8,9 @@ import Waiting from '@/components/Waiting'
 import End from '@/components/End'
 import InvestorInfo from '@/components/InvestorInfo'
 import InvestmentInfo from '@/components/InverstmentInfo'
-import styles from '@/styles/index.module.css'
 import LeaderBoard from '@/components/LeaderBoard'
+
+import styles from '@/styles/index.module.css'
 
 export default function Home() {
 
@@ -48,7 +49,7 @@ export default function Home() {
           console.log(data);
 
           let currentRound = data.team.currentRound;
-          // currentRound ="sectors";
+          // currentRound ="investorsInfo";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
@@ -92,10 +93,10 @@ export default function Home() {
                 {/* <div className={styles.fourth}>LeaderName: {leaderName}</div> */}
               </div>
 
-              <div id="Content">
+              <div id="Content" className={styles.mainContent}>
                 {!qualified ? <Waiting text="You have been disqualified" onProceed={() => { location.reload() }} />
                   :
-                  <div>
+                  <>
                     {/* {stage} */}
                     {stage == "Not Started" && <Waiting text="Waiting for other players..." onProceed={() => { location.reload() }} />}
                     {/* {stage == "started" && <Details onProceed={() => { location.reload() }} />} */}
@@ -107,7 +108,7 @@ export default function Home() {
                     {stage == "industryLeader" && <LeaderBoard indVise={true} industry={industry} onProceed={() => { location.reload() }} />}
                     {stage == "allLeader" && <LeaderBoard indVise={false} industry={industry} onProceed={() => { location.reload() }} />}
                     {stage == "end" && <End />}
-                  </div>
+                  </>
                 }
 
               </div>
