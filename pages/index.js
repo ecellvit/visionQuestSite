@@ -49,7 +49,7 @@ export default function Home() {
           console.log(data);
 
           let currentRound = data.team.currentRound;
-          // currentRound ="investorsInfo";
+          currentRound ="investorsInfo";
 
           setHasTeamDetails(true);
           setVps(data.team.vps)
